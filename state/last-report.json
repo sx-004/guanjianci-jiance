@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-11-22T07:28:55.416097+00:00",
-  "finished_at": "2026-11-22T07:29:12.759307+00:00",
-  "round_no": 1,
+  "started_at": "2026-11-22T08:27:29.885658+00:00",
+  "finished_at": "2026-11-22T08:27:45.019751+00:00",
+  "round_no": 2,
   "mode": "send",
   "keywords": [
     "ChatGPT",
@@ -18,14 +18,14 @@
     "MCP"
   ],
   "searched_keywords": [
-    "ChatGPT",
-    "Gemini",
-    "Claude"
-  ],
-  "skipped_keywords": [
     "Grok",
     "Manus",
-    "cindy",
+    "cindy"
+  ],
+  "skipped_keywords": [
+    "ChatGPT",
+    "Gemini",
+    "Claude",
     "Kimi",
     "DeepSeek",
     "WorkBuddy",
@@ -33,7 +33,11 @@
     "Agent",
     "MCP"
   ],
-  "already_searched_keywords": [],
+  "already_searched_keywords": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
   "thresholds": {
     "min_platforms": 2,
     "min_consecutive_rounds": 2,
@@ -110,94 +114,46 @@
   ],
   "all_sources_failed": false,
   "alerts": [],
-  "hits_total": 39,
-  "filtered_non_chinese": 10,
-  "filtered_pure_english_title": 10,
+  "hits_total": 20,
+  "filtered_non_chinese": 4,
+  "filtered_pure_english_title": 4,
   "filtered_non_chinese_examples": [
-    "Gemini 4 Neon is the new #1 on the Models Engineering Index | Hacker News",
-    "Why is Gemini 4 Carbon taking so long? | Hacker News",
-    "Gemini 4 Carbon | Hacker News",
-    "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-    "Gemini 4 Neon"
+    "Grok 4.6 | Hacker News",
+    "Grok CLI uploaded the whole home directory to GCS | Hacker News",
+    "Cindy, Open-source agent that runs Claude Code and Codex as swappable harnesses ",
+    "Cindy, Open-source agent that runs Claude Code and Codex as swappable harnesses"
   ],
-  "topics_total": 39,
+  "topics_total": 19,
   "hot_topics": 0,
-  "cold_topics_skipped": 39,
+  "cold_topics_skipped": 19,
   "keyword_spread": {
-    "ChatGPT": {
-      "platforms": [
-        "V2EX",
-        "linux.do",
-        "小众软件"
-      ],
-      "hits": 9
-    },
-    "Claude": {
+    "Grok": {
       "platforms": [
         "V2EX",
         "linux.do",
         "小众软件",
         "少数派"
       ],
-      "hits": 18
+      "hits": 9
     },
-    "Gemini": {
+    "Manus": {
       "platforms": [
-        "V2EX",
         "linux.do",
         "小众软件"
       ],
-      "hits": 12
+      "hits": 8
+    },
+    "cindy": {
+      "platforms": [
+        "linux.do"
+      ],
+      "hits": 3
     }
   },
   "keyword_level_candidates": [
     {
-      "title": "chatGPT也没有传说中的那么强大啊",
-      "url": "https://meta.appinn.net/t/topic/41918",
-      "score": 30.0,
-      "source": "小众软件",
-      "platforms": [
-        "V2EX",
-        "linux.do",
-        "小众软件"
-      ],
-      "keywords": [
-        "ChatGPT"
-      ],
-      "rounds": 0,
-      "consecutive_rounds": 0,
-      "reasons": [
-        "关键词 ChatGPT 在 3 个社区都有人聊"
-      ],
-      "topic_key": "kw:chatgpt",
-      "hits": 9,
-      "kind": "keyword_level"
-    },
-    {
-      "title": "普通人，这时候值得冲 Gemini或者GPT付费版本么？",
-      "url": "https://meta.appinn.net/t/topic/81933",
-      "score": 30.0,
-      "source": "小众软件",
-      "platforms": [
-        "V2EX",
-        "linux.do",
-        "小众软件"
-      ],
-      "keywords": [
-        "Gemini"
-      ],
-      "rounds": 0,
-      "consecutive_rounds": 0,
-      "reasons": [
-        "关键词 Gemini 在 3 个社区都有人聊"
-      ],
-      "topic_key": "kw:gemini",
-      "hits": 12,
-      "kind": "keyword_level"
-    },
-    {
-      "title": "各位大佬有没有便宜的claude途径可以用？",
-      "url": "https://meta.appinn.net/t/topic/85772",
+      "title": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
+      "url": "https://meta.appinn.net/t/topic/88227",
       "score": 40.0,
       "source": "小众软件",
       "platforms": [
@@ -207,687 +163,373 @@
         "少数派"
       ],
       "keywords": [
-        "Claude"
+        "Grok"
       ],
       "rounds": 0,
       "consecutive_rounds": 0,
       "reasons": [
-        "关键词 Claude 在 4 个社区都有人聊"
+        "关键词 Grok 在 4 个社区都有人聊"
       ],
-      "topic_key": "kw:claude",
-      "hits": 18,
+      "topic_key": "kw:grok",
+      "hits": 9,
+      "kind": "keyword_level"
+    },
+    {
+      "title": "Manus 被 Facebook 母公司 Meta 收购",
+      "url": "https://meta.appinn.net/t/topic/79541",
+      "score": 20.0,
+      "source": "小众软件",
+      "platforms": [
+        "linux.do",
+        "小众软件"
+      ],
+      "keywords": [
+        "Manus"
+      ],
+      "rounds": 0,
+      "consecutive_rounds": 0,
+      "reasons": [
+        "关键词 Manus 在 2 个社区都有人聊"
+      ],
+      "topic_key": "kw:manus",
+      "hits": 8,
       "kind": "keyword_level"
     }
   ],
   "topics": [
     {
-      "title": "普通人，这时候值得冲 Gemini或者GPT付费版本么？",
+      "title": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
       "platforms": [
         "小众软件"
       ],
       "keywords": [
-        "Gemini"
+        "Grok"
       ],
-      "hits": 1,
+      "hits": 2,
       "links": [
         {
-          "title": "普通人，这时候值得冲 Gemini或者GPT付费版本么？",
-          "url": "https://meta.appinn.net/t/topic/81933",
+          "title": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
+          "url": "https://meta.appinn.net/t/topic/88227",
+          "source": "小众软件"
+        },
+        {
+          "title": "Grok 4.5 冲上 Arena 代码榜第三",
+          "url": "https://meta.appinn.net/t/topic/88031",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "各位大佬有没有便宜的claude途径可以用？",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "各位大佬有没有便宜的claude途径可以用？",
-          "url": "https://meta.appinn.net/t/topic/85772",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "新的 Claude 使用方法探索",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "新的 Claude 使用方法探索",
-          "url": "https://www.v2ex.com/t/1258304",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "谈谈最近使用Claude的感受",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "谈谈最近使用Claude的感受",
-          "url": "https://linux.do/t/topic/3152453",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "chatGPT也没有传说中的那么强大啊",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "ChatGPT"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "chatGPT也没有传说中的那么强大啊",
-          "url": "https://meta.appinn.net/t/topic/41918",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "ChatGPT 开始让 agent 帮你刷卡付钱了",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "ChatGPT"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "ChatGPT 开始让 agent 帮你刷卡付钱了",
-          "url": "https://www.v2ex.com/t/1257048",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "我现在对ChatGPT很不满",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "ChatGPT"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "我现在对ChatGPT很不满",
-          "url": "https://linux.do/t/topic/3113277",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "谷歌开始提高免费 Gemini API 配额，部分模型已达每分钟 100 万 Token，但不是全部",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "Gemini"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "谷歌开始提高免费 Gemini API 配额，部分模型已达每分钟 100 万 Token，但不是全部",
-          "url": "https://meta.appinn.net/t/topic/87671",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "Gemini 从美区学生 Pro 入正黑五半价了，顺道聊聊当前 Gemini 优惠情况和我个人 AI 使用心得分享",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "Gemini"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "Gemini 从美区学生 Pro 入正黑五半价了，顺道聊聊当前 Gemini 优惠情况和我个人 AI 使用心得分享",
-          "url": "https://www.v2ex.com/t/1258834",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "有点想上Gemini，有什么要注意的吗",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Gemini"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "有点想上Gemini，有什么要注意的吗",
-          "url": "https://linux.do/t/topic/3187217",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "Claude Sonnet 5.5怎么样？",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "Claude Sonnet 5.5怎么样？",
-          "url": "https://meta.appinn.net/t/topic/92606",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "（已坠机，被机场节点炸死了，开着节点但是连上去直接提示Claude在您的地区不可用，光速进入门户认证）记录一下Claude的订阅与使用",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "（已坠机，被机场节点炸死了，开着节点但是连上去直接提示Claude在您的地区不可用，光速进入门户认证）记录一下Claude的订阅与使用",
-          "url": "https://linux.do/t/topic/3137000",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "ChatGpt 大面积封号？",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "ChatGPT"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "ChatGpt 大面积封号？",
-          "url": "https://www.v2ex.com/t/1255172",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "求助大佬们 为什么我的ChatGPT账号突然被封禁",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "ChatGPT"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "求助大佬们 为什么我的ChatGPT账号突然被封禁",
-          "url": "https://linux.do/t/topic/3135821",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "Gemini 突然地区不支持了",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "Gemini"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "Gemini 突然地区不支持了",
-          "url": "https://meta.appinn.net/t/topic/81412",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "Gemini 模型如何？",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "Gemini"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "Gemini 模型如何？",
-          "url": "https://www.v2ex.com/t/1257234",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "被Claude封号，开贴记录过程",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "被Claude封号，开贴记录过程",
-          "url": "https://meta.appinn.net/t/topic/87633",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "Claude 封号了，五味杂陈",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "Claude 封号了，五味杂陈",
-          "url": "https://www.v2ex.com/t/1256017",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "请各位佬友来讨论 Claude 近期的降智情况",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "请各位佬友来讨论 Claude 近期的降智情况",
-          "url": "https://linux.do/t/topic/1911264",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "Chatgpt怎么变成傻瓜了",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "ChatGPT"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "Chatgpt怎么变成傻瓜了",
-          "url": "https://meta.appinn.net/t/topic/78429",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "ChatGPT 大量写硬盘的问题真是没完没了",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "ChatGPT"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "ChatGPT 大量写硬盘的问题真是没完没了",
-          "url": "https://www.v2ex.com/t/1251451",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "谈谈我的使用感受 Gemini 新发布的几个模型 [时间: 2026.11.19]",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "Gemini"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "谈谈我的使用感受 Gemini 新发布的几个模型 [时间: 2026.11.19]",
-          "url": "https://www.v2ex.com/t/1258296",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "Gemini又回来了",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Gemini"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "Gemini又回来了",
-          "url": "https://linux.do/t/topic/3176216",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "大家现在用Claude的多吗？",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "大家现在用Claude的多吗？",
-          "url": "https://meta.appinn.net/t/topic/43468",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "大家目前被封禁了几个 Claude 账户？",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "大家目前被封禁了几个 Claude 账户？",
-          "url": "https://www.v2ex.com/t/1253335",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "Claude 认证通过，但是额度也太不经用了",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "Claude 认证通过，但是额度也太不经用了",
-          "url": "https://linux.do/t/topic/3218832",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "创建一个新的 ChatGPT 对话，似乎可以直接用 GPT-4，以及上传图片、文档",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "ChatGPT"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "创建一个新的 ChatGPT 对话，似乎可以直接用 GPT-4，以及上传图片、文档",
-          "url": "https://meta.appinn.net/t/topic/49272",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "恶心了， ChatGPT 要跟 Codex 共用额度了",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "ChatGPT"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "恶心了， ChatGPT 要跟 Codex 共用额度了",
-          "url": "https://www.v2ex.com/t/1253511",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "我去，Gemini闹脾气？",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "Gemini"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "我去，Gemini闹脾气？",
-          "url": "https://meta.appinn.net/t/topic/85223",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "新模型: Gemini 4 Neon 细致卡位",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "Gemini"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "新模型: Gemini 4 Neon 细致卡位",
-          "url": "https://www.v2ex.com/t/1258150",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "Gemini真是个大烧货，一个比一个烧，烧的我心痒痒",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Gemini"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "Gemini真是个大烧货，一个比一个烧，烧的我心痒痒",
-          "url": "https://linux.do/t/topic/3202962",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "笑死我了，完全由 Claude Code 生成的代码，运行情况如何？",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "笑死我了，完全由 Claude Code 生成的代码，运行情况如何？",
-          "url": "https://meta.appinn.net/t/topic/80667",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "想念 Claude",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "Claude"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "想念 Claude",
-          "url": "https://www.v2ex.com/t/1254163",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "Skill 越装越费：我拆开 Claude 的源码才明白发生了什么",
+      "title": "为什么我觉得 Grok Bot 是 Agent 的下一个范式",
       "platforms": [
         "少数派"
       ],
       "keywords": [
-        "Claude"
+        "Grok"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "Skill 越装越费：我拆开 Claude 的源码才明白发生了什么",
-          "url": "https://pwa.sspai.com/post/109664",
+          "title": "为什么我觉得 Grok Bot 是 Agent 的下一个范式",
+          "url": "https://sspai.com/post/119045",
           "source": "少数派"
         }
       ]
     },
     {
-      "title": "现在的Claude好用吗？大家一般是用Claude Code还是桌面版本",
+      "title": "grok（cursor/grok 统一套餐） v.s. gpt 哪个更值得买？（内含个人建议）",
       "platforms": [
         "linux.do"
       ],
       "keywords": [
-        "Claude"
+        "Grok"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "现在的Claude好用吗？大家一般是用Claude Code还是桌面版本",
-          "url": "https://linux.do/t/topic/3016605",
+          "title": "grok（cursor/grok 统一套餐） v.s. gpt 哪个更值得买？（内含个人建议）",
+          "url": "https://linux.do/t/topic/3066005",
           "source": "linux.do"
         }
       ]
     },
     {
-      "title": "让 Windows 11 在 iPhone Duo 上运行，使用 Gemini 开发，已开源｜WindowsiOS",
+      "title": "Manus 被 Facebook 母公司 Meta 收购",
       "platforms": [
         "小众软件"
       ],
       "keywords": [
-        "Gemini"
+        "Manus"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "让 Windows 11 在 iPhone Duo 上运行，使用 Gemini 开发，已开源｜WindowsiOS",
-          "url": "https://meta.appinn.net/t/topic/95901",
+          "title": "Manus 被 Facebook 母公司 Meta 收购",
+          "url": "https://meta.appinn.net/t/topic/79541",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "【开发者自荐】X Island - 在 MacBook 刘海上批准 Claude Code 的权限请求",
+      "title": "关于Manus现在值不值付费",
       "platforms": [
-        "小众软件"
+        "linux.do"
       ],
       "keywords": [
-        "Claude"
+        "Manus"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "【开发者自荐】X Island - 在 MacBook 刘海上批准 Claude Code 的权限请求",
-          "url": "https://meta.appinn.net/t/topic/95293",
+          "title": "关于Manus现在值不值付费",
+          "url": "https://linux.do/t/topic/2106802",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "Cindy 大家有用过的么？我看X上被吹爆了，比hermes怎么样呢",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "cindy"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "Cindy 大家有用过的么？我看X上被吹爆了，比hermes怎么样呢",
+          "url": "https://linux.do/t/topic/3153650",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "grok完全不好用啊",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Grok"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "grok完全不好用啊",
+          "url": "https://linux.do/t/topic/3137173",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "求不到邀请码？一个晚上，哦不，3个小时 OpenManus 就开源复刻了 Manus ...吗？",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Manus"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "求不到邀请码？一个晚上，哦不，3个小时 OpenManus 就开源复刻了 Manus ...吗？",
+          "url": "https://meta.appinn.net/t/topic/67255",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "【开源自荐】Buddy：让 Claude Code、Codex 等 AI 代理操作你的安卓手机（免 root、免电脑）",
+      "title": "有没有佬来说说Manus能干啥，刚才领了佬友的2w积分",
       "platforms": [
-        "小众软件"
+        "linux.do"
       ],
       "keywords": [
-        "Claude"
+        "Manus"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "【开源自荐】Buddy：让 Claude Code、Codex 等 AI 代理操作你的安卓手机（免 root、免电脑）",
-          "url": "https://meta.appinn.net/t/topic/95213",
+          "title": "有没有佬来说说Manus能干啥，刚才领了佬友的2w积分",
+          "url": "https://linux.do/t/topic/3045501/7",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "Grok Bot 用 Claude，符合服务条款了吧",
+      "platforms": [
+        "V2EX"
+      ],
+      "keywords": [
+        "Grok"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "Grok Bot 用 Claude，符合服务条款了吧",
+          "url": "https://www.v2ex.com/t/1257099",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "讨论下为啥近期grok，muse，微软忽然疲软了",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Grok"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "讨论下为啥近期grok，muse，微软忽然疲软了",
+          "url": "https://linux.do/t/topic/3159134",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "智能体 Manus AI 发布 iPhone、iPad 客户端，依旧需要邀请码",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Manus"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "智能体 Manus AI 发布 iPhone、iPad 客户端，依旧需要邀请码",
+          "url": "https://meta.appinn.net/t/topic/68189",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "VS Code 1.145 发布：一个会话里混用 Claude、Codex 和 Copilot，还能给本地自动化排 cron",
+      "title": "Manus 的 Manus 2.0 Max 实际路由GPT 6 Astra",
       "platforms": [
-        "小众软件"
+        "linux.do"
       ],
       "keywords": [
-        "Claude"
+        "Manus"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "VS Code 1.145 发布：一个会话里混用 Claude、Codex 和 Copilot，还能给本地自动化排 cron",
-          "url": "https://meta.appinn.net/t/topic/95238",
+          "title": "Manus 的 Manus 2.0 Max 实际路由GPT 6 Astra",
+          "url": "https://linux.do/t/topic/3038731",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "Cindy的plus套餐包真吗？",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "cindy"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "Cindy的plus套餐包真吗？",
+          "url": "https://linux.do/t/topic/2958812",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "想进阶成Grok Bot大神？看这一篇就够了！",
+      "platforms": [
+        "少数派"
+      ],
+      "keywords": [
+        "Grok"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "想进阶成Grok Bot大神？看这一篇就够了！",
+          "url": "https://sspai.com/post/118298",
+          "source": "少数派"
+        }
+      ]
+    },
+    {
+      "title": "Manus 限时免费，5天",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Manus"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "Manus 限时免费，5天",
+          "url": "https://meta.appinn.net/t/topic/90410",
           "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "刚才在贴里看有人推荐Cindy，试用了一下",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "cindy"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "刚才在贴里看有人推荐Cindy，试用了一下",
+          "url": "https://linux.do/t/topic/2880731",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "grok 到底什么水平？适合什么场景？",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Grok"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "grok 到底什么水平？适合什么场景？",
+          "url": "https://linux.do/t/topic/1626357",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "manus是做啥的？",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Manus"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "manus是做啥的？",
+          "url": "https://linux.do/t/topic/1377486",
+          "source": "linux.do"
         }
       ]
     }
   ],
   "candidates": [
     {
-      "title": "各位大佬有没有便宜的claude途径可以用？",
-      "url": "https://meta.appinn.net/t/topic/85772",
+      "title": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
+      "url": "https://meta.appinn.net/t/topic/88227",
       "score": 40.0,
       "source": "小众软件",
       "platforms": [
@@ -897,68 +539,44 @@
         "少数派"
       ],
       "keywords": [
-        "Claude"
+        "Grok"
       ],
       "rounds": 0,
       "consecutive_rounds": 0,
       "reasons": [
-        "关键词 Claude 在 4 个社区都有人聊"
+        "关键词 Grok 在 4 个社区都有人聊"
       ],
-      "topic_key": "kw:claude",
-      "hits": 18,
-      "kind": "keyword_level"
-    },
-    {
-      "title": "chatGPT也没有传说中的那么强大啊",
-      "url": "https://meta.appinn.net/t/topic/41918",
-      "score": 30.0,
-      "source": "小众软件",
-      "platforms": [
-        "V2EX",
-        "linux.do",
-        "小众软件"
-      ],
-      "keywords": [
-        "ChatGPT"
-      ],
-      "rounds": 0,
-      "consecutive_rounds": 0,
-      "reasons": [
-        "关键词 ChatGPT 在 3 个社区都有人聊"
-      ],
-      "topic_key": "kw:chatgpt",
+      "topic_key": "kw:grok",
       "hits": 9,
       "kind": "keyword_level"
     },
     {
-      "title": "普通人，这时候值得冲 Gemini或者GPT付费版本么？",
-      "url": "https://meta.appinn.net/t/topic/81933",
-      "score": 30.0,
+      "title": "Manus 被 Facebook 母公司 Meta 收购",
+      "url": "https://meta.appinn.net/t/topic/79541",
+      "score": 20.0,
       "source": "小众软件",
       "platforms": [
-        "V2EX",
         "linux.do",
         "小众软件"
       ],
       "keywords": [
-        "Gemini"
+        "Manus"
       ],
       "rounds": 0,
       "consecutive_rounds": 0,
       "reasons": [
-        "关键词 Gemini 在 3 个社区都有人聊"
+        "关键词 Manus 在 2 个社区都有人聊"
       ],
-      "topic_key": "kw:gemini",
-      "hits": 12,
+      "topic_key": "kw:manus",
+      "hits": 8,
       "kind": "keyword_level"
     }
   ],
-  "message": "各位大佬有没有便宜的claude途径可以用？\nhttps://meta.appinn.net/t/topic/85772\n\nchatGPT也没有传说中的那么强大啊\nhttps://meta.appinn.net/t/topic/41918\n\n普通人，这时候值得冲 Gemini或者GPT付费版本么？\nhttps://meta.appinn.net/t/topic/81933",
+  "message": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六\nhttps://meta.appinn.net/t/topic/88227\n\nManus 被 Facebook 母公司 Meta 收购\nhttps://meta.appinn.net/t/topic/79541",
   "silent": false,
   "pushed": [
-    "V2EX｜各位大佬有没有便宜的claude途径可以用？",
-    "V2EX｜chatGPT也没有传说中的那么强大啊",
-    "V2EX｜普通人，这时候值得冲 Gemini或者GPT付费版本么？"
+    "V2EX｜Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
+    "linux.do｜Manus 被 Facebook 母公司 Meta 收购"
   ],
   "push_failed": [],
   "summary_rest": []

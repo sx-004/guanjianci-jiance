@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-22T07:29:12.758797+00:00",
+  "updated_at": "2026-11-22T08:27:45.019030+00:00",
   "last_run": "",
   "seen": {
     "59dac7bb37a611b4": {
@@ -23,6 +23,20 @@
       "source": "V2EX",
       "keyword": "Gemini",
       "first_seen": "2026-11-22T07:29:12.757732+00:00"
+    },
+    "3ad62d7e372fe713": {
+      "url": "https://meta.appinn.net/t/topic/88227",
+      "title": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
+      "source": "V2EX",
+      "keyword": "Grok",
+      "first_seen": "2026-11-22T08:27:45.017957+00:00"
+    },
+    "0c8ecc5c9fd1f741": {
+      "url": "https://meta.appinn.net/t/topic/79541",
+      "title": "Manus 被 Facebook 母公司 Meta 收购",
+      "source": "linux.do",
+      "keyword": "Manus",
+      "first_seen": "2026-11-22T08:27:45.017985+00:00"
     }
   },
   "searched": {
@@ -79,6 +93,41 @@
           "https://meta.appinn.net/t/topic/95293",
           "https://meta.appinn.net/t/topic/95213",
           "https://meta.appinn.net/t/topic/95238"
+        ]
+      },
+      "Grok": {
+        "at": "2026-11-22T08:27:35.377695+00:00",
+        "hits": [
+          "https://meta.appinn.net/t/topic/88227",
+          "https://meta.appinn.net/t/topic/88031",
+          "https://www.v2ex.com/t/1257099",
+          "https://sspai.com/post/119045",
+          "https://sspai.com/post/118298",
+          "https://linux.do/t/topic/3066005",
+          "https://linux.do/t/topic/3137173",
+          "https://linux.do/t/topic/3159134",
+          "https://linux.do/t/topic/1626357"
+        ]
+      },
+      "Manus": {
+        "at": "2026-11-22T08:27:39.957362+00:00",
+        "hits": [
+          "https://meta.appinn.net/t/topic/79541",
+          "https://meta.appinn.net/t/topic/67255",
+          "https://meta.appinn.net/t/topic/68189",
+          "https://meta.appinn.net/t/topic/90410",
+          "https://linux.do/t/topic/2106802",
+          "https://linux.do/t/topic/3045501/7",
+          "https://linux.do/t/topic/3038731",
+          "https://linux.do/t/topic/1377486"
+        ]
+      },
+      "cindy": {
+        "at": "2026-11-22T08:27:44.425621+00:00",
+        "hits": [
+          "https://linux.do/t/topic/3153650",
+          "https://linux.do/t/topic/2958812",
+          "https://linux.do/t/topic/2880731"
         ]
       }
     }
@@ -349,8 +398,217 @@
         "少数派"
       ],
       "updated_at": "2026-11-22T07:29:12.089418+00:00"
+    },
+    "91813302f03625d2": {
+      "title": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
+      "url": "https://meta.appinn.net/t/topic/88227",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426867+00:00"
+    },
+    "1e4fc2c48977b180": {
+      "title": "为什么我觉得 Grok Bot 是 Agent 的下一个范式",
+      "url": "https://sspai.com/post/119045",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426879+00:00"
+    },
+    "68ebaa28a8672ae5": {
+      "title": "grok（cursor/grok 统一套餐） v.s. gpt 哪个更值得买？（内含个人建议）",
+      "url": "https://linux.do/t/topic/3066005",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426884+00:00"
+    },
+    "91ec4c0419f16a3d": {
+      "title": "Manus 被 Facebook 母公司 Meta 收购",
+      "url": "https://meta.appinn.net/t/topic/79541",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426888+00:00"
+    },
+    "d6a3e92a45aed274": {
+      "title": "manus是做啥的？",
+      "url": "https://linux.do/t/topic/1377486",
+      "rounds": 4,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426966+00:00"
+    },
+    "41cdaa79590acad8": {
+      "title": "Cindy 大家有用过的么？我看X上被吹爆了，比hermes怎么样呢",
+      "url": "https://linux.do/t/topic/3153650",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426895+00:00"
+    },
+    "cf45869fabce17d4": {
+      "title": "grok 到底什么水平？适合什么场景？",
+      "url": "https://linux.do/t/topic/1626357",
+      "rounds": 2,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426962+00:00"
+    },
+    "7bef20fb310960d8": {
+      "title": "求不到邀请码？一个晚上，哦不，3个小时 OpenManus 就开源复刻了 Manus ...吗？",
+      "url": "https://meta.appinn.net/t/topic/67255",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426920+00:00"
+    },
+    "7e345fdc1da64896": {
+      "title": "Grok Bot 用 Claude，符合服务条款了吧",
+      "url": "https://www.v2ex.com/t/1257099",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426933+00:00"
+    },
+    "df7eecaded7a46f6": {
+      "title": "讨论下为啥近期grok，muse，微软忽然疲软了",
+      "url": "https://linux.do/t/topic/3159134",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426937+00:00"
+    },
+    "8e6303b3c7439534": {
+      "title": "智能体 Manus AI 发布 iPhone、iPad 客户端，依旧需要邀请码",
+      "url": "https://meta.appinn.net/t/topic/68189",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426941+00:00"
+    },
+    "3ead3f32985cfdc0": {
+      "title": "Manus 的 Manus 2.0 Max 实际路由GPT 6 Astra",
+      "url": "https://linux.do/t/topic/3038731",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426944+00:00"
+    },
+    "e50a808747b043c0": {
+      "title": "Cindy的plus套餐包真吗？",
+      "url": "https://linux.do/t/topic/2958812",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426947+00:00"
+    },
+    "b9aa03cb26146aa9": {
+      "title": "想进阶成Grok Bot大神？看这一篇就够了！",
+      "url": "https://sspai.com/post/118298",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426951+00:00"
+    },
+    "d0fb3cf0f47a7a59": {
+      "title": "刚才在贴里看有人推荐Cindy，试用了一下",
+      "url": "https://linux.do/t/topic/2880731",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T08:27:44.426959+00:00"
+    },
+    "kw:grok": {
+      "title": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
+      "url": "https://meta.appinn.net/t/topic/88227",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件",
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T08:27:44.427184+00:00"
+    },
+    "kw:manus": {
+      "title": "Manus 被 Facebook 母公司 Meta 收购",
+      "url": "https://meta.appinn.net/t/topic/79541",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 2,
+      "first_round": 2,
+      "platforms": [
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T08:27:44.427189+00:00"
     }
   },
-  "round_no": 1,
+  "round_no": 2,
   "source_failures": {}
 }
