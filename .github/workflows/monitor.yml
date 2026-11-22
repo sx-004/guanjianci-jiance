@@ -1,0 +1,91 @@
+name: 关键词监控
+
+on:
+  schedule:
+    # 每小时一次，避开整点（GitHub 整点高负载会丢任务）。
+    - cron: '43 * * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'push = 真推送；dry = 只干跑不推送'
+        required: false
+        default: 'push'
+        type: choice
+        options:
+          - push
+          - dry
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}
+  cancel-in-progress: ${{ github.event_name == 'push' }}
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 离线自检
+        # push 只干跑：中间态失败不发失败邮件；定时/手动仍按真实失败处理。
+        continue-on-error: ${{ github.event_name == 'push' }}
+        run: |
+          python main.py --self-check
+          python -m unittest discover -s tests -v
+
+      - name: 从 state 分支恢复去重状态
+        # push 只干跑：中间态失败不发失败邮件；定时/手动仍按真实失败处理。
+        continue-on-error: ${{ github.event_name == 'push' }}
+        run: bash scripts/restore_state.sh
+
+      - name: 采集（push 触发只干跑；没开推送开关也干跑）
+        # push 只干跑：中间态失败不发失败邮件；定时/手动仍按真实失败处理。
+        continue-on-error: ${{ github.event_name == 'push' }}
+        env:
+          ANYSEARCH_KEYS: ${{ secrets.ANYSEARCH_KEYS }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          set +e
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "事件 push：只干跑，不推送 Telegram；去重状态写单独的 dryrun 文件，不动正式状态。"
+            python main.py --dry-run --report report.json --state state/dryrun-state.json
+          elif [ "${{ inputs.mode }}" = "dry" ]; then
+            echo "手动指定干跑：本轮不推送任何内容。"
+            python main.py --dry-run --report report.json --state state/dryrun-state.json
+          elif [ -f monitor/push.enabled ]; then
+            echo "推送开关已打开（monitor/push.enabled）：本轮推送。"
+            python main.py --send --report report.json
+          else
+            echo "推送开关未打开（缺 monitor/push.enabled）：本轮干跑，不推送任何内容。"
+            python main.py --dry-run --report report.json --state state/dryrun-state.json
+          fi
+          code=$?
+          set -e
+          echo "采集退出码 $code（0=全成功，1=部分源失败已隔离，2=全源失败，5=配置问题）"
+          # 2=全源失败、5=配置问题：必须让工作流红掉，不能被 continue-on-error 吞掉。
+          if [ "$code" -gt 1 ]; then exit "$code"; fi
+
+      - name: 保存状态到 state 分支
+        # 只有真正推送的轮次才写正式状态；push 的干跑不能污染去重库，否则定时推送会被吃掉。
+        if: always() && github.event_name != 'push'
+        run: bash scripts/persist_state.sh
+
+      - name: 上传运行报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: keyword-report-${{ github.run_number }}
+          path: report.json
+          retention-days: 14

@@ -1,0 +1,43 @@
+{
+  "keywords": {
+    "Claude": [
+      {
+        "source": "Hacker News",
+        "title": "Claude Opus 4.7 发布了",
+        "url": "https://news.ycombinator.com/item?id=9000001",
+        "snippet": "讨论 Claude 新版本",
+        "extra": {"rank": "2", "discussions": "180", "from_list": "0"}
+      },
+      {
+        "source": "V2EX",
+        "title": "Claude Opus 4.7 上线了",
+        "url": "https://www.v2ex.com/t/9000002",
+        "snippet": "V2EX 讨论 Claude",
+        "extra": {"rank": "1", "discussions": "60", "from_list": "0"}
+      },
+      {
+        "source": "Hacker News",
+        "title": "只有一个社区提过 Claude 的帖子",
+        "url": "https://news.ycombinator.com/item?id=9000003",
+        "snippet": "只有一个平台提过",
+        "extra": {"rank": "9", "discussions": "1", "from_list": "0"}
+      },
+      {
+        "source": "Hacker News",
+        "title": "Claude Opus 4.7 pricing and availability discussion",
+        "url": "https://news.ycombinator.com/item?id=9000004",
+        "snippet": "Pure english story about pricing",
+        "extra": {"rank": "3", "discussions": "20", "from_list": "0"}
+      }
+    ],
+    "MCP": [
+      {
+        "source": "Hacker News",
+        "title": "Show HN：一个 MCP 客户端",
+        "url": "https://news.ycombinator.com/item?id=9000011",
+        "snippet": "讨论 MCP 客户端",
+        "extra": {"rank": "1", "discussions": "12", "from_list": "0"}
+      }
+    ]
+  }
+}

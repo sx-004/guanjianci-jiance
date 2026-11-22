@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+state/state.json
+state/*.tmp
+report.json
+demo.json
+probe.json
+.pytest_cache/
