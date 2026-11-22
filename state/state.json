@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-22T08:27:45.019030+00:00",
+  "updated_at": "2026-11-22T15:40:34.006019+00:00",
   "last_run": "",
   "seen": {
     "59dac7bb37a611b4": {
@@ -37,6 +37,41 @@
       "source": "linux.do",
       "keyword": "Manus",
       "first_seen": "2026-11-22T08:27:45.017985+00:00"
+    },
+    "6b172f9f0828921b": {
+      "url": "https://meta.appinn.net/t/topic/96229",
+      "title": "DeepSeek 自建的聊天包好用吗？",
+      "source": "Reddit",
+      "keyword": "DeepSeek",
+      "first_seen": "2026-11-22T15:40:34.004827+00:00"
+    },
+    "53b49986d8c7d0b0": {
+      "url": "https://meta.appinn.net/t/topic/75325",
+      "title": "Kimi OK COMPUTER 初试用",
+      "source": "V2EX",
+      "keyword": "Kimi",
+      "first_seen": "2026-11-22T15:40:34.004853+00:00"
+    },
+    "7be16a5da7759938": {
+      "url": "https://meta.appinn.net/t/topic/93218",
+      "title": "Workbuddy卡的很",
+      "source": "V2EX",
+      "keyword": "WorkBuddy",
+      "first_seen": "2026-11-22T15:40:34.004861+00:00"
+    },
+    "f48ea6cec5610f76": {
+      "url": "https://linux.do/t/topic/3062936/1",
+      "title": "DeepSeek V4.1 Flash 1017真的能干活吗？",
+      "source": "linux.do",
+      "keyword": "DeepSeek",
+      "first_seen": "2026-11-22T15:40:34.004869+00:00"
+    },
+    "d1e76c40d5f83fcc": {
+      "url": "https://meta.appinn.net/t/topic/94363",
+      "title": "Strata 0.2.4 更新：12GB 显卡运行 DeepSeek V4.1-Flash",
+      "source": "linux.do",
+      "keyword": "DeepSeek",
+      "first_seen": "2026-11-22T15:40:34.004876+00:00"
     }
   },
   "searched": {
@@ -128,6 +163,56 @@
           "https://linux.do/t/topic/3153650",
           "https://linux.do/t/topic/2958812",
           "https://linux.do/t/topic/2880731"
+        ]
+      },
+      "Kimi": {
+        "at": "2026-11-22T15:40:22.276154+00:00",
+        "hits": [
+          "https://meta.appinn.net/t/topic/75325",
+          "https://meta.appinn.net/t/topic/90402",
+          "https://www.v2ex.com/t/1255598",
+          "https://www.v2ex.com/t/1258331",
+          "https://linux.do/t/topic/3171287",
+          "https://linux.do/t/topic/3203893",
+          "https://linux.do/t/topic/2915787",
+          "https://linux.do/t/topic/2669457",
+          "https://linux.do/t/topic/3039081"
+        ]
+      },
+      "DeepSeek": {
+        "at": "2026-11-22T15:40:28.736304+00:00",
+        "hits": [
+          "https://meta.appinn.net/t/topic/96229",
+          "https://meta.appinn.net/t/topic/94946/1",
+          "https://meta.appinn.net/t/topic/95123",
+          "https://meta.appinn.net/t/topic/84183",
+          "https://www.v2ex.com/t/1257214?p=2",
+          "https://www.v2ex.com/t/1255533",
+          "https://www.v2ex.com/t/1255207",
+          "https://www.v2ex.com/t/1251402",
+          "https://sspai.com/post/118524",
+          "https://www.reddit.com/r/xiabb/comments/1xe560w/%E4%B8%BA%E4%BB%80%E4%B9%88deepseek%E6%95%A2%E6%8A%8A%E5%8D%B0%E9%92%9E%E6%9C%BA%E5%BC%80%E6%BA%90/",
+          "https://linux.do/t/topic/3120124",
+          "https://linux.do/t/topic/2903709",
+          "https://linux.do/t/topic/3062936/1",
+          "https://meta.appinn.net/t/topic/96229",
+          "https://meta.appinn.net/t/topic/95561",
+          "https://meta.appinn.net/t/topic/94363",
+          "https://meta.appinn.net/t/topic/94895",
+          "https://meta.appinn.net/t/topic/94579"
+        ]
+      },
+      "WorkBuddy": {
+        "at": "2026-11-22T15:40:33.410994+00:00",
+        "hits": [
+          "https://meta.appinn.net/t/topic/93218",
+          "https://meta.appinn.net/t/topic/93855",
+          "https://www.v2ex.com/t/1258529",
+          "https://www.v2ex.com/t/1253891",
+          "https://linux.do/t/topic/3149131",
+          "https://linux.do/t/topic/3054216",
+          "https://linux.do/t/topic/3006246",
+          "https://linux.do/t/topic/3132727"
         ]
       }
     }
@@ -607,8 +692,287 @@
         "小众软件"
       ],
       "updated_at": "2026-11-22T08:27:44.427189+00:00"
+    },
+    "f6314f49521a723e": {
+      "title": "Kimi OK COMPUTER 初试用",
+      "url": "https://meta.appinn.net/t/topic/75325",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413446+00:00"
+    },
+    "13a10ebc7abfdf92": {
+      "title": "来来讨论讨论kimi k3",
+      "url": "https://linux.do/t/topic/2669457",
+      "rounds": 3,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "V2EX",
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413582+00:00"
+    },
+    "872a5399e406588f": {
+      "title": "Kimi K3.1 Pro 好用，但是真的又慢又贵",
+      "url": "https://linux.do/t/topic/3171287",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413466+00:00"
+    },
+    "1c7d6b0e613ef93f": {
+      "title": "为什么很多人都把 DeepSeek 神化了，看不起国内豆包和其它 LLM？",
+      "url": "https://www.v2ex.com/t/1251402",
+      "rounds": 8,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "Reddit",
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413618+00:00"
+    },
+    "a8206acaf3a63f9a": {
+      "title": "反代WorkBuddy哪家强？",
+      "url": "https://linux.do/t/topic/3006246",
+      "rounds": 5,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413602+00:00"
+    },
+    "24c1ee7151d40080": {
+      "title": "抢 workbuddy 市场的第一个月进度汇报，馆长的 11.20 记录与分享",
+      "url": "https://www.v2ex.com/t/1258529",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413493+00:00"
+    },
+    "c76688a8e5b359d3": {
+      "title": "国产模型哪个好用?kimi k3 pro 还是 GLM 5.3 ?",
+      "url": "https://www.v2ex.com/t/1258331",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413514+00:00"
+    },
+    "9c28ba9f14325afa": {
+      "title": "发现Deepseek客户端的一个很影响体验的bug",
+      "url": "https://meta.appinn.net/t/topic/94946/1",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413526+00:00"
+    },
+    "3e4eb21c77ac6b05": {
+      "title": "deepseek harness 的实际能力远超大多数人的认知，最近深度体验总结",
+      "url": "https://www.v2ex.com/t/1257214?p=2",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413532+00:00"
+    },
+    "b9e91a4da3976828": {
+      "title": "有人测过WorkBuddy积分加折扣使用DeepSeek与DeepSeek自己API的token费率吗？",
+      "url": "https://meta.appinn.net/t/topic/93855",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413542+00:00"
+    },
+    "a913134b3a223b52": {
+      "title": "为什么kimi code一点讨论量都没有",
+      "url": "https://linux.do/t/topic/3039081",
+      "rounds": 2,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413607+00:00"
+    },
+    "bdef364ec7cc555c": {
+      "title": "DeepSeek API貌似又炸了",
+      "url": "https://meta.appinn.net/t/topic/95123",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413550+00:00"
+    },
+    "b1f6d64a0184afb1": {
+      "title": "在 iPhone 16 Pro 上运行 Kimi K3",
+      "url": "https://meta.appinn.net/t/topic/90402",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413577+00:00"
+    },
+    "98b08feffcc3e079": {
+      "title": "深度拆解 DeepSeek Super-Agent",
+      "url": "https://sspai.com/post/118524",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413592+00:00"
+    },
+    "d4c668de212e2a65": {
+      "title": "DeepSeek V4.1 Flash 1017真的能干活吗？",
+      "url": "https://linux.do/t/topic/3062936/1",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413597+00:00"
+    },
+    "c3d4e838dbfe6e2e": {
+      "title": "国内版workbuddy的ds4.1flash模型价格疑似上调？（官方公告了）",
+      "url": "https://linux.do/t/topic/3132727",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413622+00:00"
+    },
+    "68dc0d01ae8aaa6e": {
+      "title": "我为 DeepSeek Harness 开发了一个管理 Discourse 论坛的插件",
+      "url": "https://meta.appinn.net/t/topic/95561",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413627+00:00"
+    },
+    "a3a8b2a498cdd440": {
+      "title": "Strata 0.2.9 发布：本地大模型 Prefill 最高提速 88%，还支持 1 比特 DeepSeek",
+      "url": "https://meta.appinn.net/t/topic/94895",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413631+00:00"
+    },
+    "f1b47e7a0b6b6544": {
+      "title": "【DSH 插件】dsh-peak-valley，DeepSeek 峰谷状态显示",
+      "url": "https://meta.appinn.net/t/topic/94579",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.413635+00:00"
+    },
+    "kw:workbuddy": {
+      "title": "Workbuddy卡的很",
+      "url": "https://meta.appinn.net/t/topic/93218",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.414044+00:00"
+    },
+    "kw:deepseek": {
+      "title": "DeepSeek 自建的聊天包好用吗？",
+      "url": "https://meta.appinn.net/t/topic/96229",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "Reddit",
+        "V2EX",
+        "linux.do",
+        "小众软件",
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T15:40:33.414053+00:00"
+    },
+    "kw:kimi": {
+      "title": "Kimi OK COMPUTER 初试用",
+      "url": "https://meta.appinn.net/t/topic/75325",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 3,
+      "first_round": 3,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T15:40:33.414058+00:00"
     }
   },
-  "round_no": 2,
+  "round_no": 3,
   "source_failures": {}
 }

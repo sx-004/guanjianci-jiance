@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-11-22T08:27:29.885658+00:00",
-  "finished_at": "2026-11-22T08:27:45.019751+00:00",
-  "round_no": 2,
+  "started_at": "2026-11-22T15:40:16.301226+00:00",
+  "finished_at": "2026-11-22T15:40:34.007104+00:00",
+  "round_no": 3,
   "mode": "send",
   "keywords": [
     "ChatGPT",
@@ -18,17 +18,17 @@
     "MCP"
   ],
   "searched_keywords": [
-    "Grok",
-    "Manus",
-    "cindy"
+    "Kimi",
+    "DeepSeek",
+    "WorkBuddy"
   ],
   "skipped_keywords": [
     "ChatGPT",
     "Gemini",
     "Claude",
-    "Kimi",
-    "DeepSeek",
-    "WorkBuddy",
+    "Grok",
+    "Manus",
+    "cindy",
     "Codex",
     "Agent",
     "MCP"
@@ -36,7 +36,10 @@
   "already_searched_keywords": [
     "ChatGPT",
     "Gemini",
-    "Claude"
+    "Claude",
+    "Grok",
+    "Manus",
+    "cindy"
   ],
   "thresholds": {
     "min_platforms": 2,
@@ -114,445 +117,779 @@
   ],
   "all_sources_failed": false,
   "alerts": [],
-  "hits_total": 20,
-  "filtered_non_chinese": 4,
-  "filtered_pure_english_title": 4,
+  "hits_total": 35,
+  "filtered_non_chinese": 11,
+  "filtered_pure_english_title": 11,
   "filtered_non_chinese_examples": [
-    "Grok 4.6 | Hacker News",
-    "Grok CLI uploaded the whole home directory to GCS | Hacker News",
-    "Cindy, Open-source agent that runs Claude Code and Codex as swappable harnesses ",
-    "Cindy, Open-source agent that runs Claude Code and Codex as swappable harnesses"
+    "Kimi K3: Open Frontier Intelligence | Hacker News",
+    "Kimi K2.6: Advancing open-source coding | Hacker News",
+    "Kimi Work | Hacker News",
+    "kimi's new model : r/kimi",
+    "Kimi K3.1 Pro and K3.1 Pro Highspeed"
   ],
-  "topics_total": 19,
-  "hot_topics": 0,
-  "cold_topics_skipped": 19,
+  "topics_total": 33,
+  "hot_topics": 1,
+  "cold_topics_skipped": 32,
   "keyword_spread": {
-    "Grok": {
+    "DeepSeek": {
       "platforms": [
+        "Reddit",
         "V2EX",
         "linux.do",
         "小众软件",
         "少数派"
       ],
+      "hits": 18
+    },
+    "Kimi": {
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
       "hits": 9
     },
-    "Manus": {
+    "WorkBuddy": {
       "platforms": [
+        "V2EX",
         "linux.do",
         "小众软件"
       ],
       "hits": 8
-    },
-    "cindy": {
-      "platforms": [
-        "linux.do"
-      ],
-      "hits": 3
     }
   },
   "keyword_level_candidates": [
     {
-      "title": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
-      "url": "https://meta.appinn.net/t/topic/88227",
-      "score": 40.0,
+      "title": "Kimi OK COMPUTER 初试用",
+      "url": "https://meta.appinn.net/t/topic/75325",
+      "score": 30.0,
       "source": "小众软件",
       "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "keywords": [
+        "Kimi"
+      ],
+      "rounds": 0,
+      "consecutive_rounds": 0,
+      "reasons": [
+        "关键词 Kimi 在 3 个社区都有人聊"
+      ],
+      "topic_key": "kw:kimi",
+      "hits": 9,
+      "kind": "keyword_level"
+    },
+    {
+      "title": "DeepSeek 自建的聊天包好用吗？",
+      "url": "https://meta.appinn.net/t/topic/96229",
+      "score": 50.0,
+      "source": "小众软件",
+      "platforms": [
+        "Reddit",
         "V2EX",
         "linux.do",
         "小众软件",
         "少数派"
       ],
       "keywords": [
-        "Grok"
+        "DeepSeek"
       ],
       "rounds": 0,
       "consecutive_rounds": 0,
       "reasons": [
-        "关键词 Grok 在 4 个社区都有人聊"
+        "关键词 DeepSeek 在 5 个社区都有人聊"
       ],
-      "topic_key": "kw:grok",
-      "hits": 9,
+      "topic_key": "kw:deepseek",
+      "hits": 18,
       "kind": "keyword_level"
     },
     {
-      "title": "Manus 被 Facebook 母公司 Meta 收购",
-      "url": "https://meta.appinn.net/t/topic/79541",
-      "score": 20.0,
+      "title": "Workbuddy卡的很",
+      "url": "https://meta.appinn.net/t/topic/93218",
+      "score": 30.0,
       "source": "小众软件",
       "platforms": [
+        "V2EX",
         "linux.do",
         "小众软件"
       ],
       "keywords": [
-        "Manus"
+        "WorkBuddy"
       ],
       "rounds": 0,
       "consecutive_rounds": 0,
       "reasons": [
-        "关键词 Manus 在 2 个社区都有人聊"
+        "关键词 WorkBuddy 在 3 个社区都有人聊"
       ],
-      "topic_key": "kw:manus",
+      "topic_key": "kw:workbuddy",
       "hits": 8,
       "kind": "keyword_level"
     }
   ],
   "topics": [
     {
-      "title": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
+      "title": "Kimi OK COMPUTER 初试用",
       "platforms": [
         "小众软件"
       ],
       "keywords": [
-        "Grok"
+        "Kimi"
       ],
-      "hits": 2,
+      "hits": 1,
       "links": [
         {
-          "title": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
-          "url": "https://meta.appinn.net/t/topic/88227",
-          "source": "小众软件"
-        },
-        {
-          "title": "Grok 4.5 冲上 Arena 代码榜第三",
-          "url": "https://meta.appinn.net/t/topic/88031",
+          "title": "Kimi OK COMPUTER 初试用",
+          "url": "https://meta.appinn.net/t/topic/75325",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "为什么我觉得 Grok Bot 是 Agent 的下一个范式",
-      "platforms": [
-        "少数派"
-      ],
-      "keywords": [
-        "Grok"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "为什么我觉得 Grok Bot 是 Agent 的下一个范式",
-          "url": "https://sspai.com/post/119045",
-          "source": "少数派"
-        }
-      ]
-    },
-    {
-      "title": "grok（cursor/grok 统一套餐） v.s. gpt 哪个更值得买？（内含个人建议）",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Grok"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "grok（cursor/grok 统一套餐） v.s. gpt 哪个更值得买？（内含个人建议）",
-          "url": "https://linux.do/t/topic/3066005",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "Manus 被 Facebook 母公司 Meta 收购",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "Manus"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "Manus 被 Facebook 母公司 Meta 收购",
-          "url": "https://meta.appinn.net/t/topic/79541",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "关于Manus现在值不值付费",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Manus"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "关于Manus现在值不值付费",
-          "url": "https://linux.do/t/topic/2106802",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "Cindy 大家有用过的么？我看X上被吹爆了，比hermes怎么样呢",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "cindy"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "Cindy 大家有用过的么？我看X上被吹爆了，比hermes怎么样呢",
-          "url": "https://linux.do/t/topic/3153650",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "grok完全不好用啊",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Grok"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "grok完全不好用啊",
-          "url": "https://linux.do/t/topic/3137173",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "求不到邀请码？一个晚上，哦不，3个小时 OpenManus 就开源复刻了 Manus ...吗？",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "Manus"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "求不到邀请码？一个晚上，哦不，3个小时 OpenManus 就开源复刻了 Manus ...吗？",
-          "url": "https://meta.appinn.net/t/topic/67255",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "有没有佬来说说Manus能干啥，刚才领了佬友的2w积分",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Manus"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "有没有佬来说说Manus能干啥，刚才领了佬友的2w积分",
-          "url": "https://linux.do/t/topic/3045501/7",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "Grok Bot 用 Claude，符合服务条款了吧",
+      "title": "有买 kimi 的吗？实测效果如何？",
       "platforms": [
         "V2EX"
       ],
       "keywords": [
-        "Grok"
+        "Kimi"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "Grok Bot 用 Claude，符合服务条款了吧",
-          "url": "https://www.v2ex.com/t/1257099",
+          "title": "有买 kimi 的吗？实测效果如何？",
+          "url": "https://www.v2ex.com/t/1255598",
           "source": "V2EX"
         }
       ]
     },
     {
-      "title": "讨论下为啥近期grok，muse，微软忽然疲软了",
+      "title": "Kimi K3.1 Pro 好用，但是真的又慢又贵",
       "platforms": [
         "linux.do"
       ],
       "keywords": [
-        "Grok"
+        "Kimi"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "讨论下为啥近期grok，muse，微软忽然疲软了",
-          "url": "https://linux.do/t/topic/3159134",
+          "title": "Kimi K3.1 Pro 好用，但是真的又慢又贵",
+          "url": "https://linux.do/t/topic/3171287",
           "source": "linux.do"
         }
       ]
     },
     {
-      "title": "智能体 Manus AI 发布 iPhone、iPad 客户端，依旧需要邀请码",
+      "title": "DeepSeek 自建的聊天包好用吗？",
       "platforms": [
         "小众软件"
       ],
       "keywords": [
-        "Manus"
+        "DeepSeek"
       ],
-      "hits": 1,
+      "hits": 2,
       "links": [
         {
-          "title": "智能体 Manus AI 发布 iPhone、iPad 客户端，依旧需要邀请码",
-          "url": "https://meta.appinn.net/t/topic/68189",
+          "title": "DeepSeek 自建的聊天包好用吗？",
+          "url": "https://meta.appinn.net/t/topic/96229",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "Manus 的 Manus 2.0 Max 实际路由GPT 6 Astra",
+      "title": "deepseek真的好啊",
       "platforms": [
         "linux.do"
       ],
       "keywords": [
-        "Manus"
+        "DeepSeek"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "Manus 的 Manus 2.0 Max 实际路由GPT 6 Astra",
-          "url": "https://linux.do/t/topic/3038731",
+          "title": "deepseek真的好啊",
+          "url": "https://linux.do/t/topic/3120124",
           "source": "linux.do"
         }
       ]
     },
     {
-      "title": "Cindy的plus套餐包真吗？",
+      "title": "Workbuddy卡的很",
       "platforms": [
-        "linux.do"
+        "小众软件"
       ],
       "keywords": [
-        "cindy"
+        "WorkBuddy"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "Cindy的plus套餐包真吗？",
-          "url": "https://linux.do/t/topic/2958812",
+          "title": "Workbuddy卡的很",
+          "url": "https://meta.appinn.net/t/topic/93218",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "抢 workbuddy 市场的第一个月进度汇报，馆长的 11.20 记录与分享",
+      "platforms": [
+        "V2EX"
+      ],
+      "keywords": [
+        "WorkBuddy"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "抢 workbuddy 市场的第一个月进度汇报，馆长的 11.20 记录与分享",
+          "url": "https://www.v2ex.com/t/1258529",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "workbuddy很好用吗",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "WorkBuddy"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "workbuddy很好用吗",
+          "url": "https://linux.do/t/topic/3149131",
           "source": "linux.do"
         }
       ]
     },
     {
-      "title": "想进阶成Grok Bot大神？看这一篇就够了！",
+      "title": "国产模型哪个好用?kimi k3 pro 还是 GLM 5.3 ?",
+      "platforms": [
+        "V2EX"
+      ],
+      "keywords": [
+        "Kimi"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "国产模型哪个好用?kimi k3 pro 还是 GLM 5.3 ?",
+          "url": "https://www.v2ex.com/t/1258331",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "kimi所有服务都不能用了（应该是暂时吧）草台班子",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Kimi"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "kimi所有服务都不能用了（应该是暂时吧）草台班子",
+          "url": "https://linux.do/t/topic/3203893",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "发现Deepseek客户端的一个很影响体验的bug",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "发现Deepseek客户端的一个很影响体验的bug",
+          "url": "https://meta.appinn.net/t/topic/94946/1",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "deepseek harness 的实际能力远超大多数人的认知，最近深度体验总结",
+      "platforms": [
+        "V2EX"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "deepseek harness 的实际能力远超大多数人的认知，最近深度体验总结",
+          "url": "https://www.v2ex.com/t/1257214?p=2",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "现在打算全面转向deepseek使用了, 佬们讨论下怎么用划算阿",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "现在打算全面转向deepseek使用了, 佬们讨论下怎么用划算阿",
+          "url": "https://linux.do/t/topic/2903709",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "有人测过WorkBuddy积分加折扣使用DeepSeek与DeepSeek自己API的token费率吗？",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "WorkBuddy"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "有人测过WorkBuddy积分加折扣使用DeepSeek与DeepSeek自己API的token费率吗？",
+          "url": "https://meta.appinn.net/t/topic/93855",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "KIMI新的套餐已经可以订阅了，CODE场景取消周限，大家看看是否值得订阅？",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Kimi"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "KIMI新的套餐已经可以订阅了，CODE场景取消周限，大家看看是否值得订阅？",
+          "url": "https://linux.do/t/topic/2915787",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek API貌似又炸了",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "DeepSeek API貌似又炸了",
+          "url": "https://meta.appinn.net/t/topic/95123",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "用 deepseek 写代码有秘诀吗",
+      "platforms": [
+        "V2EX"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "用 deepseek 写代码有秘诀吗",
+          "url": "https://www.v2ex.com/t/1255533",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "为什么deepseek敢把“印钞机”开源？",
+      "platforms": [
+        "Reddit"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "为什么deepseek敢把“印钞机”开源？",
+          "url": "https://www.reddit.com/r/xiabb/comments/1xe560w/%E4%B8%BA%E4%BB%80%E4%B9%88deepseek%E6%95%A2%E6%8A%8A%E5%8D%B0%E9%92%9E%E6%9C%BA%E5%BC%80%E6%BA%90/",
+          "source": "Reddit"
+        }
+      ]
+    },
+    {
+      "title": "workbuddy 里面有个功能叫专家团，大家试过么？用来写代码开发类的好用么？要消耗几倍积分？",
+      "platforms": [
+        "V2EX"
+      ],
+      "keywords": [
+        "WorkBuddy"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "workbuddy 里面有个功能叫专家团，大家试过么？用来写代码开发类的好用么？要消耗几倍积分？",
+          "url": "https://www.v2ex.com/t/1253891",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "再见了workbuddy（工单回复无法解除限制，注销账号也不行的那种）",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "WorkBuddy"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "再见了workbuddy（工单回复无法解除限制，注销账号也不行的那种）",
+          "url": "https://linux.do/t/topic/3054216",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "在 iPhone 16 Pro 上运行 Kimi K3",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Kimi"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "在 iPhone 16 Pro 上运行 Kimi K3",
+          "url": "https://meta.appinn.net/t/topic/90402",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "来来讨论讨论kimi k3",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Kimi"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "来来讨论讨论kimi k3",
+          "url": "https://linux.do/t/topic/2669457",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "好了， deepseek 有开始维护了，是不是又要有升级了？",
+      "platforms": [
+        "V2EX"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "好了， deepseek 有开始维护了，是不是又要有升级了？",
+          "url": "https://www.v2ex.com/t/1255207",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "深度拆解 DeepSeek Super-Agent",
       "platforms": [
         "少数派"
       ],
       "keywords": [
-        "Grok"
+        "DeepSeek"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "想进阶成Grok Bot大神？看这一篇就够了！",
-          "url": "https://sspai.com/post/118298",
+          "title": "深度拆解 DeepSeek Super-Agent",
+          "url": "https://sspai.com/post/118524",
           "source": "少数派"
         }
       ]
     },
     {
-      "title": "Manus 限时免费，5天",
+      "title": "DeepSeek V4.1 Flash 1017真的能干活吗？",
       "platforms": [
+        "linux.do",
         "小众软件"
       ],
       "keywords": [
-        "Manus"
+        "DeepSeek"
       ],
-      "hits": 1,
+      "hits": 2,
       "links": [
         {
-          "title": "Manus 限时免费，5天",
-          "url": "https://meta.appinn.net/t/topic/90410",
+          "title": "DeepSeek V4.1 Flash 1017真的能干活吗？",
+          "url": "https://linux.do/t/topic/3062936/1",
+          "source": "linux.do"
+        },
+        {
+          "title": "Strata 0.2.4 更新：12GB 显卡运行 DeepSeek V4.1-Flash",
+          "url": "https://meta.appinn.net/t/topic/94363",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "刚才在贴里看有人推荐Cindy，试用了一下",
+      "title": "反代WorkBuddy哪家强？",
       "platforms": [
         "linux.do"
       ],
       "keywords": [
-        "cindy"
+        "WorkBuddy"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "刚才在贴里看有人推荐Cindy，试用了一下",
-          "url": "https://linux.do/t/topic/2880731",
+          "title": "反代WorkBuddy哪家强？",
+          "url": "https://linux.do/t/topic/3006246",
           "source": "linux.do"
         }
       ]
     },
     {
-      "title": "grok 到底什么水平？适合什么场景？",
+      "title": "为什么kimi code一点讨论量都没有",
       "platforms": [
         "linux.do"
       ],
       "keywords": [
-        "Grok"
+        "Kimi"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "grok 到底什么水平？适合什么场景？",
-          "url": "https://linux.do/t/topic/1626357",
+          "title": "为什么kimi code一点讨论量都没有",
+          "url": "https://linux.do/t/topic/3039081",
           "source": "linux.do"
         }
       ]
     },
     {
-      "title": "manus是做啥的？",
+      "title": "DeepSeek 正在进行首次外部融资，目标估值超过 100 亿美元",
       "platforms": [
-        "linux.do"
+        "小众软件"
       ],
       "keywords": [
-        "Manus"
+        "DeepSeek"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "manus是做啥的？",
-          "url": "https://linux.do/t/topic/1377486",
+          "title": "DeepSeek 正在进行首次外部融资，目标估值超过 100 亿美元",
+          "url": "https://meta.appinn.net/t/topic/84183",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "为什么很多人都把 DeepSeek 神化了，看不起国内豆包和其它 LLM？",
+      "platforms": [
+        "V2EX"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "为什么很多人都把 DeepSeek 神化了，看不起国内豆包和其它 LLM？",
+          "url": "https://www.v2ex.com/t/1251402",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "国内版workbuddy的ds4.1flash模型价格疑似上调？（官方公告了）",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "WorkBuddy"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "国内版workbuddy的ds4.1flash模型价格疑似上调？（官方公告了）",
+          "url": "https://linux.do/t/topic/3132727",
           "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "我为 DeepSeek Harness 开发了一个管理 Discourse 论坛的插件",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "我为 DeepSeek Harness 开发了一个管理 Discourse 论坛的插件",
+          "url": "https://meta.appinn.net/t/topic/95561",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "Strata 0.2.9 发布：本地大模型 Prefill 最高提速 88%，还支持 1 比特 DeepSeek",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "Strata 0.2.9 发布：本地大模型 Prefill 最高提速 88%，还支持 1 比特 DeepSeek",
+          "url": "https://meta.appinn.net/t/topic/94895",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "【DSH 插件】dsh-peak-valley，DeepSeek 峰谷状态显示",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "【DSH 插件】dsh-peak-valley，DeepSeek 峰谷状态显示",
+          "url": "https://meta.appinn.net/t/topic/94579",
+          "source": "小众软件"
         }
       ]
     }
   ],
   "candidates": [
     {
-      "title": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
-      "url": "https://meta.appinn.net/t/topic/88227",
-      "score": 40.0,
+      "title": "DeepSeek 自建的聊天包好用吗？",
+      "url": "https://meta.appinn.net/t/topic/96229",
+      "score": 50.0,
       "source": "小众软件",
       "platforms": [
+        "Reddit",
         "V2EX",
         "linux.do",
         "小众软件",
         "少数派"
       ],
       "keywords": [
-        "Grok"
+        "DeepSeek"
       ],
       "rounds": 0,
       "consecutive_rounds": 0,
       "reasons": [
-        "关键词 Grok 在 4 个社区都有人聊"
+        "关键词 DeepSeek 在 5 个社区都有人聊"
       ],
-      "topic_key": "kw:grok",
+      "topic_key": "kw:deepseek",
+      "hits": 18,
+      "kind": "keyword_level"
+    },
+    {
+      "title": "Kimi OK COMPUTER 初试用",
+      "url": "https://meta.appinn.net/t/topic/75325",
+      "score": 30.0,
+      "source": "小众软件",
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "keywords": [
+        "Kimi"
+      ],
+      "rounds": 0,
+      "consecutive_rounds": 0,
+      "reasons": [
+        "关键词 Kimi 在 3 个社区都有人聊"
+      ],
+      "topic_key": "kw:kimi",
       "hits": 9,
       "kind": "keyword_level"
     },
     {
-      "title": "Manus 被 Facebook 母公司 Meta 收购",
-      "url": "https://meta.appinn.net/t/topic/79541",
+      "title": "Workbuddy卡的很",
+      "url": "https://meta.appinn.net/t/topic/93218",
+      "score": 30.0,
+      "source": "小众软件",
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "keywords": [
+        "WorkBuddy"
+      ],
+      "rounds": 0,
+      "consecutive_rounds": 0,
+      "reasons": [
+        "关键词 WorkBuddy 在 3 个社区都有人聊"
+      ],
+      "topic_key": "kw:workbuddy",
+      "hits": 8,
+      "kind": "keyword_level"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 1017真的能干活吗？",
+      "url": "https://linux.do/t/topic/3062936/1",
+      "score": 20.0,
+      "source": "linux.do",
+      "platforms": [
+        "linux.do",
+        "小众软件"
+      ],
+      "keywords": [
+        "DeepSeek"
+      ],
+      "rounds": 0,
+      "consecutive_rounds": 0,
+      "reasons": [
+        "跨 2 个社区出现"
+      ],
+      "topic_key": "d4c668de212e2a65",
+      "hits": 2,
+      "kind": "topic"
+    },
+    {
+      "title": "Strata 0.2.4 更新：12GB 显卡运行 DeepSeek V4.1-Flash",
+      "url": "https://meta.appinn.net/t/topic/94363",
       "score": 20.0,
       "source": "小众软件",
       "platforms": [
@@ -560,23 +897,26 @@
         "小众软件"
       ],
       "keywords": [
-        "Manus"
+        "DeepSeek"
       ],
       "rounds": 0,
       "consecutive_rounds": 0,
       "reasons": [
-        "关键词 Manus 在 2 个社区都有人聊"
+        "跨 2 个社区出现"
       ],
-      "topic_key": "kw:manus",
-      "hits": 8,
-      "kind": "keyword_level"
+      "topic_key": "d4c668de212e2a65",
+      "hits": 2,
+      "kind": "topic"
     }
   ],
-  "message": "Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六\nhttps://meta.appinn.net/t/topic/88227\n\nManus 被 Facebook 母公司 Meta 收购\nhttps://meta.appinn.net/t/topic/79541",
+  "message": "DeepSeek 自建的聊天包好用吗？\nhttps://meta.appinn.net/t/topic/96229\n\nKimi OK COMPUTER 初试用\nhttps://meta.appinn.net/t/topic/75325\n\nWorkbuddy卡的很\nhttps://meta.appinn.net/t/topic/93218\n\nDeepSeek V4.1 Flash 1017真的能干活吗？\nhttps://linux.do/t/topic/3062936/1\n\nStrata 0.2.4 更新：12GB 显卡运行 DeepSeek V4.1-Flash\nhttps://meta.appinn.net/t/topic/94363",
   "silent": false,
   "pushed": [
-    "V2EX｜Grok 被曝偷传用户代码，Grok 4.5 在 Arena 跌落至第六",
-    "linux.do｜Manus 被 Facebook 母公司 Meta 收购"
+    "Reddit｜DeepSeek 自建的聊天包好用吗？",
+    "V2EX｜Kimi OK COMPUTER 初试用",
+    "V2EX｜Workbuddy卡的很",
+    "linux.do｜DeepSeek V4.1 Flash 1017真的能干活吗？",
+    "linux.do｜Strata 0.2.4 更新：12GB 显卡运行 DeepSeek V4.1-Flash"
   ],
   "push_failed": [],
   "summary_rest": []
