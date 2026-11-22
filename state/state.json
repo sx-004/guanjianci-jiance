@@ -1,0 +1,356 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-11-22T07:29:12.758797+00:00",
+  "last_run": "",
+  "seen": {
+    "59dac7bb37a611b4": {
+      "url": "https://meta.appinn.net/t/topic/85772",
+      "title": "各位大佬有没有便宜的claude途径可以用？",
+      "source": "V2EX",
+      "keyword": "Claude",
+      "first_seen": "2026-11-22T07:29:12.757699+00:00"
+    },
+    "046c1e28bfd95cb3": {
+      "url": "https://meta.appinn.net/t/topic/41918",
+      "title": "chatGPT也没有传说中的那么强大啊",
+      "source": "V2EX",
+      "keyword": "ChatGPT",
+      "first_seen": "2026-11-22T07:29:12.757723+00:00"
+    },
+    "2847c986e7e04d25": {
+      "url": "https://meta.appinn.net/t/topic/81933",
+      "title": "普通人，这时候值得冲 Gemini或者GPT付费版本么？",
+      "source": "V2EX",
+      "keyword": "Gemini",
+      "first_seen": "2026-11-22T07:29:12.757732+00:00"
+    }
+  },
+  "searched": {
+    "2026-11-22": {
+      "ChatGPT": {
+        "at": "2026-11-22T07:29:00.773320+00:00",
+        "hits": [
+          "https://meta.appinn.net/t/topic/41918",
+          "https://meta.appinn.net/t/topic/78429",
+          "https://meta.appinn.net/t/topic/49272",
+          "https://www.v2ex.com/t/1257048",
+          "https://www.v2ex.com/t/1255172",
+          "https://www.v2ex.com/t/1251451",
+          "https://www.v2ex.com/t/1253511",
+          "https://linux.do/t/topic/3113277",
+          "https://linux.do/t/topic/3135821"
+        ]
+      },
+      "Gemini": {
+        "at": "2026-11-22T07:29:06.143156+00:00",
+        "hits": [
+          "https://meta.appinn.net/t/topic/81933",
+          "https://meta.appinn.net/t/topic/87671",
+          "https://meta.appinn.net/t/topic/81412",
+          "https://meta.appinn.net/t/topic/85223",
+          "https://www.v2ex.com/t/1258834",
+          "https://www.v2ex.com/t/1257234",
+          "https://www.v2ex.com/t/1258296",
+          "https://www.v2ex.com/t/1258150",
+          "https://linux.do/t/topic/3187217",
+          "https://linux.do/t/topic/3176216",
+          "https://linux.do/t/topic/3202962",
+          "https://meta.appinn.net/t/topic/95901"
+        ]
+      },
+      "Claude": {
+        "at": "2026-11-22T07:29:12.086091+00:00",
+        "hits": [
+          "https://meta.appinn.net/t/topic/85772",
+          "https://meta.appinn.net/t/topic/92606",
+          "https://meta.appinn.net/t/topic/87633",
+          "https://meta.appinn.net/t/topic/43468",
+          "https://meta.appinn.net/t/topic/80667",
+          "https://www.v2ex.com/t/1258304",
+          "https://www.v2ex.com/t/1256017",
+          "https://www.v2ex.com/t/1253335",
+          "https://www.v2ex.com/t/1254163",
+          "https://pwa.sspai.com/post/109664",
+          "https://linux.do/t/topic/3152453",
+          "https://linux.do/t/topic/3137000",
+          "https://linux.do/t/topic/1911264",
+          "https://linux.do/t/topic/3218832",
+          "https://linux.do/t/topic/3016605",
+          "https://meta.appinn.net/t/topic/95293",
+          "https://meta.appinn.net/t/topic/95213",
+          "https://meta.appinn.net/t/topic/95238"
+        ]
+      }
+    }
+  },
+  "topics": {
+    "70a224b1fff4ecda": {
+      "title": "普通人，这时候值得冲 Gemini或者GPT付费版本么？",
+      "url": "https://meta.appinn.net/t/topic/81933",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088741+00:00"
+    },
+    "4b992665ed85aa77": {
+      "title": "想念 Claude",
+      "url": "https://www.v2ex.com/t/1254163",
+      "rounds": 11,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088939+00:00"
+    },
+    "51831bbd60cd0fda": {
+      "title": "ChatGPT 大量写硬盘的问题真是没完没了",
+      "url": "https://www.v2ex.com/t/1251451",
+      "rounds": 6,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088880+00:00"
+    },
+    "d5fac2a8e7ffb99b": {
+      "title": "ChatGPT 开始让 agent 帮你刷卡付钱了",
+      "url": "https://www.v2ex.com/t/1257048",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088786+00:00"
+    },
+    "41a76a7a97e2ada9": {
+      "title": "谷歌开始提高免费 Gemini API 配额，部分模型已达每分钟 100 万 Token，但不是全部",
+      "url": "https://meta.appinn.net/t/topic/87671",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088804+00:00"
+    },
+    "e0b531bd4cb1bcc6": {
+      "title": "Gemini 从美区学生 Pro 入正黑五半价了，顺道聊聊当前 Gemini 优惠情况和我个人 AI 使用心得分享",
+      "url": "https://www.v2ex.com/t/1258834",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088812+00:00"
+    },
+    "9572abd3189e2f41": {
+      "title": "Gemini真是个大烧货，一个比一个烧，烧的我心痒痒",
+      "url": "https://linux.do/t/topic/3202962",
+      "rounds": 6,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088930+00:00"
+    },
+    "271f8eb86a575100": {
+      "title": "Claude Sonnet 5.5怎么样？",
+      "url": "https://meta.appinn.net/t/topic/92606",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088823+00:00"
+    },
+    "b4d7cdf81d5b4830": {
+      "title": "谈谈我的使用感受 Gemini 新发布的几个模型 [时间: 2026.11.19]",
+      "url": "https://www.v2ex.com/t/1258296",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088885+00:00"
+    },
+    "7cd7cfc4876db50d": {
+      "title": "创建一个新的 ChatGPT 对话，似乎可以直接用 GPT-4，以及上传图片、文档",
+      "url": "https://meta.appinn.net/t/topic/49272",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088911+00:00"
+    },
+    "46df3ed4eda844a9": {
+      "title": "恶心了， ChatGPT 要跟 Codex 共用额度了",
+      "url": "https://www.v2ex.com/t/1253511",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088915+00:00"
+    },
+    "3beca0d532602d9c": {
+      "title": "新模型: Gemini 4 Neon 细致卡位",
+      "url": "https://www.v2ex.com/t/1258150",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088925+00:00"
+    },
+    "14971137973b981d": {
+      "title": "现在的Claude好用吗？大家一般是用Claude Code还是桌面版本",
+      "url": "https://linux.do/t/topic/3016605",
+      "rounds": 2,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088950+00:00"
+    },
+    "ccd62bac12dc2db5": {
+      "title": "Skill 越装越费：我拆开 Claude 的源码才明白发生了什么",
+      "url": "https://pwa.sspai.com/post/109664",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088945+00:00"
+    },
+    "25cfa9b6c3f54d32": {
+      "title": "让 Windows 11 在 iPhone Duo 上运行，使用 Gemini 开发，已开源｜WindowsiOS",
+      "url": "https://meta.appinn.net/t/topic/95901",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088955+00:00"
+    },
+    "c25a6d2cfced14f9": {
+      "title": "【开发者自荐】X Island - 在 MacBook 刘海上批准 Claude Code 的权限请求",
+      "url": "https://meta.appinn.net/t/topic/95293",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088960+00:00"
+    },
+    "46bdf725828d1b6b": {
+      "title": "【开源自荐】Buddy：让 Claude Code、Codex 等 AI 代理操作你的安卓手机（免 root、免电脑）",
+      "url": "https://meta.appinn.net/t/topic/95213",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088964+00:00"
+    },
+    "0463f14f76dc4206": {
+      "title": "VS Code 1.145 发布：一个会话里混用 Claude、Codex 和 Copilot，还能给本地自动化排 cron",
+      "url": "https://meta.appinn.net/t/topic/95238",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.088969+00:00"
+    },
+    "kw:gemini": {
+      "title": "普通人，这时候值得冲 Gemini或者GPT付费版本么？",
+      "url": "https://meta.appinn.net/t/topic/81933",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.089404+00:00"
+    },
+    "kw:chatgpt": {
+      "title": "chatGPT也没有传说中的那么强大啊",
+      "url": "https://meta.appinn.net/t/topic/41918",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T07:29:12.089413+00:00"
+    },
+    "kw:claude": {
+      "title": "各位大佬有没有便宜的claude途径可以用？",
+      "url": "https://meta.appinn.net/t/topic/85772",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 1,
+      "first_round": 1,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件",
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T07:29:12.089418+00:00"
+    }
+  },
+  "round_no": 1,
+  "source_failures": {}
+}
