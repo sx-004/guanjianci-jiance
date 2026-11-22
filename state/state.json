@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-22T15:40:34.006019+00:00",
+  "updated_at": "2026-11-22T21:17:02.969626+00:00",
   "last_run": "",
   "seen": {
     "59dac7bb37a611b4": {
@@ -72,6 +72,27 @@
       "source": "linux.do",
       "keyword": "DeepSeek",
       "first_seen": "2026-11-22T15:40:34.004876+00:00"
+    },
+    "5f63c784102fddcb": {
+      "url": "https://sspai.com/post/117943",
+      "title": "自荐 | Codex Co²：AI 时代的结对编程，应该是怎样的？",
+      "source": "V2EX",
+      "keyword": "Codex",
+      "first_seen": "2026-11-22T21:17:02.968633+00:00"
+    },
+    "b2ad89a47bd42e7d": {
+      "url": "https://meta.appinn.net/t/topic/88861",
+      "title": "各位觉得哪个 agent 软件好用",
+      "source": "V2EX",
+      "keyword": "Agent",
+      "first_seen": "2026-11-22T21:17:02.968658+00:00"
+    },
+    "3c74e660e97fadbf": {
+      "url": "https://meta.appinn.net/t/topic/82709",
+      "title": "淘宝桌面版的 AI 功能（MCP），真的什么都能干吗？",
+      "source": "V2EX",
+      "keyword": "MCP",
+      "first_seen": "2026-11-22T21:17:02.968664+00:00"
     }
   },
   "searched": {
@@ -213,6 +234,70 @@
           "https://linux.do/t/topic/3054216",
           "https://linux.do/t/topic/3006246",
           "https://linux.do/t/topic/3132727"
+        ]
+      },
+      "Codex": {
+        "at": "2026-11-22T21:16:51.796749+00:00",
+        "hits": [
+          "https://meta.appinn.net/t/topic/84477",
+          "https://www.v2ex.com/t/1256551",
+          "https://www.v2ex.com/t/1256746",
+          "https://www.v2ex.com/t/1251960",
+          "https://www.v2ex.com/t/1257520",
+          "https://sspai.com/post/117943",
+          "https://linux.do/t/topic/2979536",
+          "https://linux.do/t/topic/2995510",
+          "https://linux.do/t/topic/3155054",
+          "https://meta.appinn.net/t/topic/94934",
+          "https://meta.appinn.net/t/topic/95704",
+          "https://meta.appinn.net/t/topic/95604",
+          "https://meta.appinn.net/t/topic/95213",
+          "https://meta.appinn.net/t/topic/95238"
+        ]
+      },
+      "Agent": {
+        "at": "2026-11-22T21:16:57.326152+00:00",
+        "hits": [
+          "https://meta.appinn.net/t/topic/88861",
+          "https://meta.appinn.net/t/topic/91551",
+          "https://meta.appinn.net/t/topic/84397",
+          "https://www.v2ex.com/t/1255577",
+          "https://www.v2ex.com/t/1257223",
+          "https://www.v2ex.com/t/1254207",
+          "https://sspai.com/post/119045",
+          "https://sspai.com/post/118434",
+          "https://sspai.com/post/118524",
+          "https://linux.do/t/topic/3199028",
+          "https://linux.do/t/topic/3186391",
+          "https://linux.do/t/topic/3191919",
+          "https://linux.do/t/topic/3140173",
+          "https://linux.do/t/topic/3207879",
+          "https://meta.appinn.net/t/topic/96061",
+          "https://meta.appinn.net/t/topic/95131",
+          "https://meta.appinn.net/t/topic/94751",
+          "https://meta.appinn.net/t/topic/95849",
+          "https://meta.appinn.net/t/topic/96475",
+          "https://meta.appinn.net/t/topic/94594",
+          "https://meta.appinn.net/t/topic/96623",
+          "https://meta.appinn.net/t/topic/94578"
+        ]
+      },
+      "MCP": {
+        "at": "2026-11-22T21:17:02.375070+00:00",
+        "hits": [
+          "https://meta.appinn.net/t/topic/82709",
+          "https://meta.appinn.net/t/topic/92057",
+          "https://meta.appinn.net/t/topic/71527",
+          "https://meta.appinn.net/t/topic/68121",
+          "https://meta.appinn.net/t/topic/93119",
+          "https://www.v2ex.com/t/1254539",
+          "https://linux.do/t/topic/2264048",
+          "https://linux.do/t/topic/1357260",
+          "https://linux.do/t/topic/660939",
+          "https://linux.do/t/topic/999877",
+          "https://linux.do/t/topic/2932588",
+          "https://meta.appinn.net/t/topic/94633",
+          "https://meta.appinn.net/t/topic/95421"
         ]
       }
     }
@@ -971,8 +1056,406 @@
         "小众软件"
       ],
       "updated_at": "2026-11-22T15:40:33.414058+00:00"
+    },
+    "a7d9cd4d181d882a": {
+      "title": "福利｜复旦「学术版 Codex」双十一积分翻倍！",
+      "url": "https://meta.appinn.net/t/topic/95604",
+      "rounds": 9,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件",
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377468+00:00"
+    },
+    "348223bf38509b6d": {
+      "title": "大家都在用什么 Agent 呢？分享一下",
+      "url": "https://meta.appinn.net/t/topic/96623",
+      "rounds": 9,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377496+00:00"
+    },
+    "d224a8c7c9626d3e": {
+      "title": "为什么我觉得 Grok Bot 是 Agent 的下一个范式",
+      "url": "https://sspai.com/post/119045",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377310+00:00"
+    },
+    "cfbfe0c62acfd85e": {
+      "title": "有什么必须要用到的MCP插件吗？",
+      "url": "https://linux.do/t/topic/2932588",
+      "rounds": 4,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377459+00:00"
+    },
+    "588bdc6369c72645": {
+      "title": "MCP 真的要被 CLI 和 SKLII 替代了吗",
+      "url": "https://linux.do/t/topic/2264048",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377327+00:00"
+    },
+    "83dcacae335fe500": {
+      "title": "你好，少数派：我是做 Agent 产品的 Felix",
+      "url": "https://sspai.com/post/118434",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377354+00:00"
+    },
+    "955ee4065bf0b560": {
+      "title": "Discourse 增加了 MCP 服务器功能，但似乎没有用啊",
+      "url": "https://meta.appinn.net/t/topic/92057",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377365+00:00"
+    },
+    "8fe022a258d25412": {
+      "title": "讨论下 skill 、subagent、MCP 的设计",
+      "url": "https://linux.do/t/topic/1357260",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377369+00:00"
+    },
+    "413ef775821bc290": {
+      "title": "Codex怎么用第三方API？Vibe Coding入门求助",
+      "url": "https://meta.appinn.net/t/topic/84477",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377373+00:00"
+    },
+    "1fb03c8b0fe753b0": {
+      "title": "【PI-Desktop】两个月，300 亿 Token，终于把自己想要的 Agent 桌面端搓出来了",
+      "url": "https://meta.appinn.net/t/topic/91551",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377381+00:00"
+    },
+    "e76c3c15dbe098cd": {
+      "title": "深度拆解 DeepSeek Super-Agent",
+      "url": "https://sspai.com/post/118524",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377385+00:00"
+    },
+    "7268fcf2d597a4c1": {
+      "title": "分享一个同时部署多个 MCP 服务器的方法，支持抱抱脸 space",
+      "url": "https://meta.appinn.net/t/topic/71527",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377393+00:00"
+    },
+    "ad1501331bd4ba71": {
+      "title": "哪种 agent 应用形式是未来：Orchestrator，还是 All-in-One?",
+      "url": "https://www.v2ex.com/t/1257223",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377416+00:00"
+    },
+    "45a352b594f2269a": {
+      "title": "使用hermes、pi等agent时，到底用不用多agent协作？",
+      "url": "https://linux.do/t/topic/3140173",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "linux.do"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377420+00:00"
+    },
+    "3cb32853fc798483": {
+      "title": "OpenAI 就这么选择了 Anthropic 的 MCP 开放标准，MCP 要一统未来了么？",
+      "url": "https://meta.appinn.net/t/topic/68121",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377424+00:00"
+    },
+    "12c52c397d1ce9c9": {
+      "title": "让 AI 写了个轻量级 MCP 代理 mcp-meta：把 104 个工具折叠成 2 个按需加载，每轮请求 Schema 体积减少 99.4%",
+      "url": "https://www.v2ex.com/t/1254539",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377428+00:00"
+    },
+    "9734fa81bf93b912": {
+      "title": "Codex 大家会开 Full access 么",
+      "url": "https://www.v2ex.com/t/1257520",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "V2EX"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377435+00:00"
+    },
+    "c33d34949f84b5b2": {
+      "title": "【开源自荐】将 QQ/微信以 MCP 接入DSH、Codex等Agent，也可以让它们直接变成群友！",
+      "url": "https://meta.appinn.net/t/topic/93119",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377456+00:00"
+    },
+    "2ee6b96750c40110": {
+      "title": "【开发者自荐】AIBanlv Bot：开源 3D 桌面 AI 伴侣，可连接 Codex / DeepSeek Harness",
+      "url": "https://meta.appinn.net/t/topic/95704",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377462+00:00"
+    },
+    "0862cea4ebfb2421": {
+      "title": "开发者自荐】Event Horizon（EH）给你已有的 AI Agent 接上另一种browser use，操作结果可核对",
+      "url": "https://meta.appinn.net/t/topic/96061",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377465+00:00"
+    },
+    "296e05ff29e29ba2": {
+      "title": "【开发者自荐】OpenMarkdown：和 Claude Code 等 AI agent 同时编辑同一份 Markdown 文件（macOS / Linux / Windows）",
+      "url": "https://meta.appinn.net/t/topic/95131",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377471+00:00"
+    },
+    "9f4a210260084590": {
+      "title": "【开源自荐】Buddy：让 Claude Code、Codex 等 AI 代理操作你的安卓手机（免 root、免电脑）",
+      "url": "https://meta.appinn.net/t/topic/95213",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377474+00:00"
+    },
+    "1af736f518459ccf": {
+      "title": "【开发者自荐】WorkBar：通过 MCP 让 AI 管理任务与计时的 Windows 桌面任务条",
+      "url": "https://meta.appinn.net/t/topic/94633",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377477+00:00"
+    },
+    "4d08ed913fccd5e1": {
+      "title": "VS Code 1.145 发布：一个会话里混用 Claude、Codex 和 Copilot，还能给本地自动化排 cron",
+      "url": "https://meta.appinn.net/t/topic/95238",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377480+00:00"
+    },
+    "e044ec1e31c77f42": {
+      "title": "〖开发者自荐〗ccc-mcp：让 ChatGPT 在本地项目中分工写代码、执行测试和审查结果",
+      "url": "https://meta.appinn.net/t/topic/95421",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377482+00:00"
+    },
+    "a136d3ca031666a0": {
+      "title": "赛博领鸡蛋：InstaBox，免费领 4 核 8GB 云电脑，支持 Linux 桌面、安卓镜像和 AI Agent",
+      "url": "https://meta.appinn.net/t/topic/95849",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377485+00:00"
+    },
+    "19be851e3556306e": {
+      "title": "【开源自荐】knowvori - 生成交互性学习页面的Agent skill",
+      "url": "https://meta.appinn.net/t/topic/96475",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377489+00:00"
+    },
+    "800c46a75d3aa9db": {
+      "title": "【开发者自荐】AI任务管理系统：本地 SQLite + AI Agent 管需求排期，自动出统计看板",
+      "url": "https://meta.appinn.net/t/topic/94594",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377492+00:00"
+    },
+    "ac980085198d9a3f": {
+      "title": "Mac mini M6 钙版，国补后价格：¥4902｜最佳 AI Agent 运行硬件",
+      "url": "https://meta.appinn.net/t/topic/94578",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377498+00:00"
+    },
+    "kw:agent": {
+      "title": "各位觉得哪个 agent 软件好用",
+      "url": "https://meta.appinn.net/t/topic/88861",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件",
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377835+00:00"
+    },
+    "kw:mcp": {
+      "title": "淘宝桌面版的 AI 功能（MCP），真的什么都能干吗？",
+      "url": "https://meta.appinn.net/t/topic/82709",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377839+00:00"
+    },
+    "kw:codex": {
+      "title": "自荐 | Codex Co²：AI 时代的结对编程，应该是怎样的？",
+      "url": "https://sspai.com/post/117943",
+      "rounds": 1,
+      "consecutive": 1,
+      "last_round": 4,
+      "first_round": 4,
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件",
+        "少数派"
+      ],
+      "updated_at": "2026-11-22T21:17:02.377842+00:00"
     }
   },
-  "round_no": 3,
+  "round_no": 4,
   "source_failures": {}
 }

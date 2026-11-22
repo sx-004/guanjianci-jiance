@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-11-22T15:40:16.301226+00:00",
-  "finished_at": "2026-11-22T15:40:34.007104+00:00",
-  "round_no": 3,
+  "started_at": "2026-11-22T21:16:46.000006+00:00",
+  "finished_at": "2026-11-22T21:17:02.970700+00:00",
+  "round_no": 4,
   "mode": "send",
   "keywords": [
     "ChatGPT",
@@ -18,9 +18,9 @@
     "MCP"
   ],
   "searched_keywords": [
-    "Kimi",
-    "DeepSeek",
-    "WorkBuddy"
+    "Codex",
+    "Agent",
+    "MCP"
   ],
   "skipped_keywords": [
     "ChatGPT",
@@ -29,9 +29,9 @@
     "Grok",
     "Manus",
     "cindy",
-    "Codex",
-    "Agent",
-    "MCP"
+    "Kimi",
+    "DeepSeek",
+    "WorkBuddy"
   ],
   "already_searched_keywords": [
     "ChatGPT",
@@ -39,7 +39,10 @@
     "Claude",
     "Grok",
     "Manus",
-    "cindy"
+    "cindy",
+    "Kimi",
+    "DeepSeek",
+    "WorkBuddy"
   ],
   "thresholds": {
     "min_platforms": 2,
@@ -117,97 +120,97 @@
   ],
   "all_sources_failed": false,
   "alerts": [],
-  "hits_total": 35,
-  "filtered_non_chinese": 11,
-  "filtered_pure_english_title": 11,
+  "hits_total": 49,
+  "filtered_non_chinese": 13,
+  "filtered_pure_english_title": 13,
   "filtered_non_chinese_examples": [
-    "Kimi K3: Open Frontier Intelligence | Hacker News",
-    "Kimi K2.6: Advancing open-source coding | Hacker News",
-    "Kimi Work | Hacker News",
-    "kimi's new model : r/kimi",
-    "Kimi K3.1 Pro and K3.1 Pro Highspeed"
+    "Serious question: what is the secret to getting Codex to write decent code? I am",
+    "Sooooooooo… reset? : r/codex",
+    "OpenAI seems to be silently re-enabling model training on Codex chats",
+    "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [v",
+    "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text"
   ],
-  "topics_total": 33,
-  "hot_topics": 1,
-  "cold_topics_skipped": 32,
+  "topics_total": 48,
+  "hot_topics": 0,
+  "cold_topics_skipped": 48,
   "keyword_spread": {
-    "DeepSeek": {
+    "Agent": {
       "platforms": [
-        "Reddit",
         "V2EX",
         "linux.do",
         "小众软件",
         "少数派"
       ],
-      "hits": 18
+      "hits": 22
     },
-    "Kimi": {
+    "Codex": {
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件",
+        "少数派"
+      ],
+      "hits": 14
+    },
+    "MCP": {
       "platforms": [
         "V2EX",
         "linux.do",
         "小众软件"
       ],
-      "hits": 9
-    },
-    "WorkBuddy": {
-      "platforms": [
-        "V2EX",
-        "linux.do",
-        "小众软件"
-      ],
-      "hits": 8
+      "hits": 13
     }
   },
   "keyword_level_candidates": [
     {
-      "title": "Kimi OK COMPUTER 初试用",
-      "url": "https://meta.appinn.net/t/topic/75325",
-      "score": 30.0,
-      "source": "小众软件",
+      "title": "自荐 | Codex Co²：AI 时代的结对编程，应该是怎样的？",
+      "url": "https://sspai.com/post/117943",
+      "score": 40.0,
+      "source": "少数派",
       "platforms": [
-        "V2EX",
-        "linux.do",
-        "小众软件"
-      ],
-      "keywords": [
-        "Kimi"
-      ],
-      "rounds": 0,
-      "consecutive_rounds": 0,
-      "reasons": [
-        "关键词 Kimi 在 3 个社区都有人聊"
-      ],
-      "topic_key": "kw:kimi",
-      "hits": 9,
-      "kind": "keyword_level"
-    },
-    {
-      "title": "DeepSeek 自建的聊天包好用吗？",
-      "url": "https://meta.appinn.net/t/topic/96229",
-      "score": 50.0,
-      "source": "小众软件",
-      "platforms": [
-        "Reddit",
         "V2EX",
         "linux.do",
         "小众软件",
         "少数派"
       ],
       "keywords": [
-        "DeepSeek"
+        "Codex"
       ],
       "rounds": 0,
       "consecutive_rounds": 0,
       "reasons": [
-        "关键词 DeepSeek 在 5 个社区都有人聊"
+        "关键词 Codex 在 4 个社区都有人聊"
       ],
-      "topic_key": "kw:deepseek",
-      "hits": 18,
+      "topic_key": "kw:codex",
+      "hits": 14,
       "kind": "keyword_level"
     },
     {
-      "title": "Workbuddy卡的很",
-      "url": "https://meta.appinn.net/t/topic/93218",
+      "title": "各位觉得哪个 agent 软件好用",
+      "url": "https://meta.appinn.net/t/topic/88861",
+      "score": 40.0,
+      "source": "小众软件",
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件",
+        "少数派"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "rounds": 0,
+      "consecutive_rounds": 0,
+      "reasons": [
+        "关键词 Agent 在 4 个社区都有人聊"
+      ],
+      "topic_key": "kw:agent",
+      "hits": 22,
+      "kind": "keyword_level"
+    },
+    {
+      "title": "淘宝桌面版的 AI 功能（MCP），真的什么都能干吗？",
+      "url": "https://meta.appinn.net/t/topic/82709",
       "score": 30.0,
       "source": "小众软件",
       "platforms": [
@@ -216,407 +219,305 @@
         "小众软件"
       ],
       "keywords": [
-        "WorkBuddy"
+        "MCP"
       ],
       "rounds": 0,
       "consecutive_rounds": 0,
       "reasons": [
-        "关键词 WorkBuddy 在 3 个社区都有人聊"
+        "关键词 MCP 在 3 个社区都有人聊"
       ],
-      "topic_key": "kw:workbuddy",
-      "hits": 8,
+      "topic_key": "kw:mcp",
+      "hits": 13,
       "kind": "keyword_level"
     }
   ],
   "topics": [
     {
-      "title": "Kimi OK COMPUTER 初试用",
+      "title": "自荐 | Codex Co²：AI 时代的结对编程，应该是怎样的？",
       "platforms": [
-        "小众软件"
+        "少数派"
       ],
       "keywords": [
-        "Kimi"
+        "Codex"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "Kimi OK COMPUTER 初试用",
-          "url": "https://meta.appinn.net/t/topic/75325",
+          "title": "自荐 | Codex Co²：AI 时代的结对编程，应该是怎样的？",
+          "url": "https://sspai.com/post/117943",
+          "source": "少数派"
+        }
+      ]
+    },
+    {
+      "title": "深度调研讨论，codex的子代理开不开是不是真的好用？",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Codex"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "深度调研讨论，codex的子代理开不开是不是真的好用？",
+          "url": "https://linux.do/t/topic/2979536",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "各位觉得哪个 agent 软件好用",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "各位觉得哪个 agent 软件好用",
+          "url": "https://meta.appinn.net/t/topic/88861",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "有买 kimi 的吗？实测效果如何？",
+      "title": "现在大家用 AI Agent，是不是还停留在 AI 编程阶段？如何才能真正进阶？",
       "platforms": [
         "V2EX"
       ],
       "keywords": [
-        "Kimi"
+        "Agent"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "有买 kimi 的吗？实测效果如何？",
-          "url": "https://www.v2ex.com/t/1255598",
+          "title": "现在大家用 AI Agent，是不是还停留在 AI 编程阶段？如何才能真正进阶？",
+          "url": "https://www.v2ex.com/t/1255577",
           "source": "V2EX"
         }
       ]
     },
     {
-      "title": "Kimi K3.1 Pro 好用，但是真的又慢又贵",
+      "title": "为什么我觉得 Grok Bot 是 Agent 的下一个范式",
       "platforms": [
-        "linux.do"
+        "少数派"
       ],
       "keywords": [
-        "Kimi"
+        "Agent"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "Kimi K3.1 Pro 好用，但是真的又慢又贵",
-          "url": "https://linux.do/t/topic/3171287",
+          "title": "为什么我觉得 Grok Bot 是 Agent 的下一个范式",
+          "url": "https://sspai.com/post/119045",
+          "source": "少数派"
+        }
+      ]
+    },
+    {
+      "title": "对 Agent 工程的一些新思考",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "对 Agent 工程的一些新思考",
+          "url": "https://linux.do/t/topic/3199028",
           "source": "linux.do"
         }
       ]
     },
     {
-      "title": "DeepSeek 自建的聊天包好用吗？",
+      "title": "淘宝桌面版的 AI 功能（MCP），真的什么都能干吗？",
       "platforms": [
         "小众软件"
       ],
       "keywords": [
-        "DeepSeek"
+        "MCP"
       ],
-      "hits": 2,
+      "hits": 1,
       "links": [
         {
-          "title": "DeepSeek 自建的聊天包好用吗？",
-          "url": "https://meta.appinn.net/t/topic/96229",
+          "title": "淘宝桌面版的 AI 功能（MCP），真的什么都能干吗？",
+          "url": "https://meta.appinn.net/t/topic/82709",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "deepseek真的好啊",
+      "title": "MCP 真的要被 CLI 和 SKLII 替代了吗",
       "platforms": [
         "linux.do"
       ],
       "keywords": [
-        "DeepSeek"
+        "MCP"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "deepseek真的好啊",
-          "url": "https://linux.do/t/topic/3120124",
+          "title": "MCP 真的要被 CLI 和 SKLII 替代了吗",
+          "url": "https://linux.do/t/topic/2264048",
           "source": "linux.do"
         }
       ]
     },
     {
-      "title": "Workbuddy卡的很",
+      "title": "本月起正式停止续费 codex 了",
       "platforms": [
-        "小众软件"
+        "V2EX"
       ],
       "keywords": [
-        "WorkBuddy"
+        "Codex"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "Workbuddy卡的很",
-          "url": "https://meta.appinn.net/t/topic/93218",
+          "title": "本月起正式停止续费 codex 了",
+          "url": "https://www.v2ex.com/t/1256551",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "codex上下文设置讨论",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Codex"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "codex上下文设置讨论",
+          "url": "https://linux.do/t/topic/2995510",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "你好，少数派：我是做 Agent 产品的 Felix",
+      "platforms": [
+        "少数派"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "你好，少数派：我是做 Agent 产品的 Felix",
+          "url": "https://sspai.com/post/118434",
+          "source": "少数派"
+        }
+      ]
+    },
+    {
+      "title": "请问大佬们平时都用什么agent？",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "请问大佬们平时都用什么agent？",
+          "url": "https://linux.do/t/topic/3186391",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "Discourse 增加了 MCP 服务器功能，但似乎没有用啊",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "MCP"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "Discourse 增加了 MCP 服务器功能，但似乎没有用啊",
+          "url": "https://meta.appinn.net/t/topic/92057",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "抢 workbuddy 市场的第一个月进度汇报，馆长的 11.20 记录与分享",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "WorkBuddy"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "抢 workbuddy 市场的第一个月进度汇报，馆长的 11.20 记录与分享",
-          "url": "https://www.v2ex.com/t/1258529",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "workbuddy很好用吗",
+      "title": "讨论下 skill 、subagent、MCP 的设计",
       "platforms": [
         "linux.do"
       ],
       "keywords": [
-        "WorkBuddy"
+        "MCP"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "workbuddy很好用吗",
-          "url": "https://linux.do/t/topic/3149131",
+          "title": "讨论下 skill 、subagent、MCP 的设计",
+          "url": "https://linux.do/t/topic/1357260",
           "source": "linux.do"
         }
       ]
     },
     {
-      "title": "国产模型哪个好用?kimi k3 pro 还是 GLM 5.3 ?",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "Kimi"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "国产模型哪个好用?kimi k3 pro 还是 GLM 5.3 ?",
-          "url": "https://www.v2ex.com/t/1258331",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "kimi所有服务都不能用了（应该是暂时吧）草台班子",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Kimi"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "kimi所有服务都不能用了（应该是暂时吧）草台班子",
-          "url": "https://linux.do/t/topic/3203893",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "发现Deepseek客户端的一个很影响体验的bug",
+      "title": "Codex怎么用第三方API？Vibe Coding入门求助",
       "platforms": [
         "小众软件"
       ],
       "keywords": [
-        "DeepSeek"
+        "Codex"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "发现Deepseek客户端的一个很影响体验的bug",
-          "url": "https://meta.appinn.net/t/topic/94946/1",
+          "title": "Codex怎么用第三方API？Vibe Coding入门求助",
+          "url": "https://meta.appinn.net/t/topic/84477",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "deepseek harness 的实际能力远超大多数人的认知，最近深度体验总结",
+      "title": "codex 今天蠢得很",
       "platforms": [
         "V2EX"
       ],
       "keywords": [
-        "DeepSeek"
+        "Codex"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "deepseek harness 的实际能力远超大多数人的认知，最近深度体验总结",
-          "url": "https://www.v2ex.com/t/1257214?p=2",
+          "title": "codex 今天蠢得很",
+          "url": "https://www.v2ex.com/t/1256746",
           "source": "V2EX"
         }
       ]
     },
     {
-      "title": "现在打算全面转向deepseek使用了, 佬们讨论下怎么用划算阿",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "DeepSeek"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "现在打算全面转向deepseek使用了, 佬们讨论下怎么用划算阿",
-          "url": "https://linux.do/t/topic/2903709",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "有人测过WorkBuddy积分加折扣使用DeepSeek与DeepSeek自己API的token费率吗？",
+      "title": "【PI-Desktop】两个月，300 亿 Token，终于把自己想要的 Agent 桌面端搓出来了",
       "platforms": [
         "小众软件"
       ],
       "keywords": [
-        "WorkBuddy"
+        "Agent"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "有人测过WorkBuddy积分加折扣使用DeepSeek与DeepSeek自己API的token费率吗？",
-          "url": "https://meta.appinn.net/t/topic/93855",
+          "title": "【PI-Desktop】两个月，300 亿 Token，终于把自己想要的 Agent 桌面端搓出来了",
+          "url": "https://meta.appinn.net/t/topic/91551",
           "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "KIMI新的套餐已经可以订阅了，CODE场景取消周限，大家看看是否值得订阅？",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Kimi"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "KIMI新的套餐已经可以订阅了，CODE场景取消周限，大家看看是否值得订阅？",
-          "url": "https://linux.do/t/topic/2915787",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "DeepSeek API貌似又炸了",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "DeepSeek"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "DeepSeek API貌似又炸了",
-          "url": "https://meta.appinn.net/t/topic/95123",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "用 deepseek 写代码有秘诀吗",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "DeepSeek"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "用 deepseek 写代码有秘诀吗",
-          "url": "https://www.v2ex.com/t/1255533",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "为什么deepseek敢把“印钞机”开源？",
-      "platforms": [
-        "Reddit"
-      ],
-      "keywords": [
-        "DeepSeek"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "为什么deepseek敢把“印钞机”开源？",
-          "url": "https://www.reddit.com/r/xiabb/comments/1xe560w/%E4%B8%BA%E4%BB%80%E4%B9%88deepseek%E6%95%A2%E6%8A%8A%E5%8D%B0%E9%92%9E%E6%9C%BA%E5%BC%80%E6%BA%90/",
-          "source": "Reddit"
-        }
-      ]
-    },
-    {
-      "title": "workbuddy 里面有个功能叫专家团，大家试过么？用来写代码开发类的好用么？要消耗几倍积分？",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "WorkBuddy"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "workbuddy 里面有个功能叫专家团，大家试过么？用来写代码开发类的好用么？要消耗几倍积分？",
-          "url": "https://www.v2ex.com/t/1253891",
-          "source": "V2EX"
-        }
-      ]
-    },
-    {
-      "title": "再见了workbuddy（工单回复无法解除限制，注销账号也不行的那种）",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "WorkBuddy"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "再见了workbuddy（工单回复无法解除限制，注销账号也不行的那种）",
-          "url": "https://linux.do/t/topic/3054216",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "在 iPhone 16 Pro 上运行 Kimi K3",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "Kimi"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "在 iPhone 16 Pro 上运行 Kimi K3",
-          "url": "https://meta.appinn.net/t/topic/90402",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "来来讨论讨论kimi k3",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Kimi"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "来来讨论讨论kimi k3",
-          "url": "https://linux.do/t/topic/2669457",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "好了， deepseek 有开始维护了，是不是又要有升级了？",
-      "platforms": [
-        "V2EX"
-      ],
-      "keywords": [
-        "DeepSeek"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "好了， deepseek 有开始维护了，是不是又要有升级了？",
-          "url": "https://www.v2ex.com/t/1255207",
-          "source": "V2EX"
         }
       ]
     },
@@ -626,7 +527,7 @@
         "少数派"
       ],
       "keywords": [
-        "DeepSeek"
+        "Agent"
       ],
       "hits": 1,
       "links": [
@@ -638,160 +539,516 @@
       ]
     },
     {
-      "title": "DeepSeek V4.1 Flash 1017真的能干活吗？",
+      "title": "Agent和LLM，大家都是如何看待和选择的呢？",
       "platforms": [
-        "linux.do",
+        "linux.do"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "Agent和LLM，大家都是如何看待和选择的呢？",
+          "url": "https://linux.do/t/topic/3191919",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "分享一个同时部署多个 MCP 服务器的方法，支持抱抱脸 space",
+      "platforms": [
         "小众软件"
       ],
       "keywords": [
-        "DeepSeek"
+        "MCP"
       ],
-      "hits": 2,
+      "hits": 1,
       "links": [
         {
-          "title": "DeepSeek V4.1 Flash 1017真的能干活吗？",
-          "url": "https://linux.do/t/topic/3062936/1",
-          "source": "linux.do"
-        },
-        {
-          "title": "Strata 0.2.4 更新：12GB 显卡运行 DeepSeek V4.1-Flash",
-          "url": "https://meta.appinn.net/t/topic/94363",
+          "title": "分享一个同时部署多个 MCP 服务器的方法，支持抱抱脸 space",
+          "url": "https://meta.appinn.net/t/topic/71527",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "反代WorkBuddy哪家强？",
+      "title": "开个帖子聊聊MCP-讨论帖、非科普",
       "platforms": [
         "linux.do"
       ],
       "keywords": [
-        "WorkBuddy"
+        "MCP"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "反代WorkBuddy哪家强？",
-          "url": "https://linux.do/t/topic/3006246",
+          "title": "开个帖子聊聊MCP-讨论帖、非科普",
+          "url": "https://linux.do/t/topic/660939",
           "source": "linux.do"
         }
       ]
     },
     {
-      "title": "为什么kimi code一点讨论量都没有",
-      "platforms": [
-        "linux.do"
-      ],
-      "keywords": [
-        "Kimi"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "为什么kimi code一点讨论量都没有",
-          "url": "https://linux.do/t/topic/3039081",
-          "source": "linux.do"
-        }
-      ]
-    },
-    {
-      "title": "DeepSeek 正在进行首次外部融资，目标估值超过 100 亿美元",
-      "platforms": [
-        "小众软件"
-      ],
-      "keywords": [
-        "DeepSeek"
-      ],
-      "hits": 1,
-      "links": [
-        {
-          "title": "DeepSeek 正在进行首次外部融资，目标估值超过 100 亿美元",
-          "url": "https://meta.appinn.net/t/topic/84183",
-          "source": "小众软件"
-        }
-      ]
-    },
-    {
-      "title": "为什么很多人都把 DeepSeek 神化了，看不起国内豆包和其它 LLM？",
+      "title": "使用 codex 时，大家有什么好的技能或插件，或好的经验可以分享一下？",
       "platforms": [
         "V2EX"
       ],
       "keywords": [
-        "DeepSeek"
+        "Codex"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "为什么很多人都把 DeepSeek 神化了，看不起国内豆包和其它 LLM？",
-          "url": "https://www.v2ex.com/t/1251402",
+          "title": "使用 codex 时，大家有什么好的技能或插件，或好的经验可以分享一下？",
+          "url": "https://www.v2ex.com/t/1251960",
           "source": "V2EX"
         }
       ]
     },
     {
-      "title": "国内版workbuddy的ds4.1flash模型价格疑似上调？（官方公告了）",
+      "title": "最近用codex越来越烧心了",
       "platforms": [
         "linux.do"
       ],
       "keywords": [
-        "WorkBuddy"
+        "Codex"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "国内版workbuddy的ds4.1flash模型价格疑似上调？（官方公告了）",
-          "url": "https://linux.do/t/topic/3132727",
+          "title": "最近用codex越来越烧心了",
+          "url": "https://linux.do/t/topic/3155054",
           "source": "linux.do"
         }
       ]
     },
     {
-      "title": "我为 DeepSeek Harness 开发了一个管理 Discourse 论坛的插件",
+      "title": "【开发者自荐】Codex Co²：让同事通过浏览器加入你的 Codex 会话",
       "platforms": [
         "小众软件"
       ],
       "keywords": [
-        "DeepSeek"
+        "Codex"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "我为 DeepSeek Harness 开发了一个管理 Discourse 论坛的插件",
-          "url": "https://meta.appinn.net/t/topic/95561",
+          "title": "【开发者自荐】Codex Co²：让同事通过浏览器加入你的 Codex 会话",
+          "url": "https://meta.appinn.net/t/topic/94934",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "Strata 0.2.9 发布：本地大模型 Prefill 最高提速 88%，还支持 1 比特 DeepSeek",
+      "title": "哪种 agent 应用形式是未来：Orchestrator，还是 All-in-One?",
       "platforms": [
-        "小众软件"
+        "V2EX"
       ],
       "keywords": [
-        "DeepSeek"
+        "Agent"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "Strata 0.2.9 发布：本地大模型 Prefill 最高提速 88%，还支持 1 比特 DeepSeek",
-          "url": "https://meta.appinn.net/t/topic/94895",
+          "title": "哪种 agent 应用形式是未来：Orchestrator，还是 All-in-One?",
+          "url": "https://www.v2ex.com/t/1257223",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "使用hermes、pi等agent时，到底用不用多agent协作？",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "使用hermes、pi等agent时，到底用不用多agent协作？",
+          "url": "https://linux.do/t/topic/3140173",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 就这么选择了 Anthropic 的 MCP 开放标准，MCP 要一统未来了么？",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "MCP"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "OpenAI 就这么选择了 Anthropic 的 MCP 开放标准，MCP 要一统未来了么？",
+          "url": "https://meta.appinn.net/t/topic/68121",
           "source": "小众软件"
         }
       ]
     },
     {
-      "title": "【DSH 插件】dsh-peak-valley，DeepSeek 峰谷状态显示",
+      "title": "让 AI 写了个轻量级 MCP 代理 mcp-meta：把 104 个工具折叠成 2 个按需加载，每轮请求 Schema 体积减少 99.4%",
       "platforms": [
-        "小众软件"
+        "V2EX"
       ],
       "keywords": [
-        "DeepSeek"
+        "MCP"
       ],
       "hits": 1,
       "links": [
         {
-          "title": "【DSH 插件】dsh-peak-valley，DeepSeek 峰谷状态显示",
-          "url": "https://meta.appinn.net/t/topic/94579",
+          "title": "让 AI 写了个轻量级 MCP 代理 mcp-meta：把 104 个工具折叠成 2 个按需加载，每轮请求 Schema 体积减少 99.4%",
+          "url": "https://www.v2ex.com/t/1254539",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "大家一起来分享一下改善了自己生活的MCP服务器",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "MCP"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "大家一起来分享一下改善了自己生活的MCP服务器",
+          "url": "https://linux.do/t/topic/999877",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "Codex 大家会开 Full access 么",
+      "platforms": [
+        "V2EX"
+      ],
+      "keywords": [
+        "Codex"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "Codex 大家会开 Full access 么",
+          "url": "https://www.v2ex.com/t/1257520",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "大家对现在的agent代理了解多少，都需要什么功能",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "大家对现在的agent代理了解多少，都需要什么功能",
+          "url": "https://meta.appinn.net/t/topic/84397",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "如何减少人为干预，让 agent 独立工作并提高交付质量",
+      "platforms": [
+        "V2EX"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "如何减少人为干预，让 agent 独立工作并提高交付质量",
+          "url": "https://www.v2ex.com/t/1254207",
+          "source": "V2EX"
+        }
+      ]
+    },
+    {
+      "title": "Agent的下一阶段如何发展——大家来畅聊（漫剧、游戏？）",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "Agent的下一阶段如何发展——大家来畅聊（漫剧、游戏？）",
+          "url": "https://linux.do/t/topic/3207879",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "【开源自荐】将 QQ/微信以 MCP 接入DSH、Codex等Agent，也可以让它们直接变成群友！",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "MCP"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "【开源自荐】将 QQ/微信以 MCP 接入DSH、Codex等Agent，也可以让它们直接变成群友！",
+          "url": "https://meta.appinn.net/t/topic/93119",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "有什么必须要用到的MCP插件吗？",
+      "platforms": [
+        "linux.do"
+      ],
+      "keywords": [
+        "MCP"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "有什么必须要用到的MCP插件吗？",
+          "url": "https://linux.do/t/topic/2932588",
+          "source": "linux.do"
+        }
+      ]
+    },
+    {
+      "title": "【开发者自荐】AIBanlv Bot：开源 3D 桌面 AI 伴侣，可连接 Codex / DeepSeek Harness",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Codex"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "【开发者自荐】AIBanlv Bot：开源 3D 桌面 AI 伴侣，可连接 Codex / DeepSeek Harness",
+          "url": "https://meta.appinn.net/t/topic/95704",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "开发者自荐】Event Horizon（EH）给你已有的 AI Agent 接上另一种browser use，操作结果可核对",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 2,
+      "links": [
+        {
+          "title": "开发者自荐】Event Horizon（EH）给你已有的 AI Agent 接上另一种browser use，操作结果可核对",
+          "url": "https://meta.appinn.net/t/topic/96061",
+          "source": "小众软件"
+        },
+        {
+          "title": "【开发者自荐】personal-agent-dossier：给个人 AI Agent 搬家用的 Skill",
+          "url": "https://meta.appinn.net/t/topic/94751",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "福利｜复旦「学术版 Codex」双十一积分翻倍！",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Codex"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "福利｜复旦「学术版 Codex」双十一积分翻倍！",
+          "url": "https://meta.appinn.net/t/topic/95604",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "【开发者自荐】OpenMarkdown：和 Claude Code 等 AI agent 同时编辑同一份 Markdown 文件（macOS / Linux / Windows）",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "【开发者自荐】OpenMarkdown：和 Claude Code 等 AI agent 同时编辑同一份 Markdown 文件（macOS / Linux / Windows）",
+          "url": "https://meta.appinn.net/t/topic/95131",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "【开源自荐】Buddy：让 Claude Code、Codex 等 AI 代理操作你的安卓手机（免 root、免电脑）",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Codex"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "【开源自荐】Buddy：让 Claude Code、Codex 等 AI 代理操作你的安卓手机（免 root、免电脑）",
+          "url": "https://meta.appinn.net/t/topic/95213",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "【开发者自荐】WorkBar：通过 MCP 让 AI 管理任务与计时的 Windows 桌面任务条",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "MCP"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "【开发者自荐】WorkBar：通过 MCP 让 AI 管理任务与计时的 Windows 桌面任务条",
+          "url": "https://meta.appinn.net/t/topic/94633",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "VS Code 1.145 发布：一个会话里混用 Claude、Codex 和 Copilot，还能给本地自动化排 cron",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Codex"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "VS Code 1.145 发布：一个会话里混用 Claude、Codex 和 Copilot，还能给本地自动化排 cron",
+          "url": "https://meta.appinn.net/t/topic/95238",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "〖开发者自荐〗ccc-mcp：让 ChatGPT 在本地项目中分工写代码、执行测试和审查结果",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "MCP"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "〖开发者自荐〗ccc-mcp：让 ChatGPT 在本地项目中分工写代码、执行测试和审查结果",
+          "url": "https://meta.appinn.net/t/topic/95421",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "赛博领鸡蛋：InstaBox，免费领 4 核 8GB 云电脑，支持 Linux 桌面、安卓镜像和 AI Agent",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "赛博领鸡蛋：InstaBox，免费领 4 核 8GB 云电脑，支持 Linux 桌面、安卓镜像和 AI Agent",
+          "url": "https://meta.appinn.net/t/topic/95849",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "【开源自荐】knowvori - 生成交互性学习页面的Agent skill",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "【开源自荐】knowvori - 生成交互性学习页面的Agent skill",
+          "url": "https://meta.appinn.net/t/topic/96475",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "【开发者自荐】AI任务管理系统：本地 SQLite + AI Agent 管需求排期，自动出统计看板",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "【开发者自荐】AI任务管理系统：本地 SQLite + AI Agent 管需求排期，自动出统计看板",
+          "url": "https://meta.appinn.net/t/topic/94594",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "大家都在用什么 Agent 呢？分享一下",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "大家都在用什么 Agent 呢？分享一下",
+          "url": "https://meta.appinn.net/t/topic/96623",
+          "source": "小众软件"
+        }
+      ]
+    },
+    {
+      "title": "Mac mini M6 钙版，国补后价格：¥4902｜最佳 AI Agent 运行硬件",
+      "platforms": [
+        "小众软件"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "hits": 1,
+      "links": [
+        {
+          "title": "Mac mini M6 钙版，国补后价格：¥4902｜最佳 AI Agent 运行硬件",
+          "url": "https://meta.appinn.net/t/topic/94578",
           "source": "小众软件"
         }
       ]
@@ -799,32 +1056,54 @@
   ],
   "candidates": [
     {
-      "title": "DeepSeek 自建的聊天包好用吗？",
-      "url": "https://meta.appinn.net/t/topic/96229",
-      "score": 50.0,
-      "source": "小众软件",
+      "title": "自荐 | Codex Co²：AI 时代的结对编程，应该是怎样的？",
+      "url": "https://sspai.com/post/117943",
+      "score": 40.0,
+      "source": "少数派",
       "platforms": [
-        "Reddit",
         "V2EX",
         "linux.do",
         "小众软件",
         "少数派"
       ],
       "keywords": [
-        "DeepSeek"
+        "Codex"
       ],
       "rounds": 0,
       "consecutive_rounds": 0,
       "reasons": [
-        "关键词 DeepSeek 在 5 个社区都有人聊"
+        "关键词 Codex 在 4 个社区都有人聊"
       ],
-      "topic_key": "kw:deepseek",
-      "hits": 18,
+      "topic_key": "kw:codex",
+      "hits": 14,
       "kind": "keyword_level"
     },
     {
-      "title": "Kimi OK COMPUTER 初试用",
-      "url": "https://meta.appinn.net/t/topic/75325",
+      "title": "各位觉得哪个 agent 软件好用",
+      "url": "https://meta.appinn.net/t/topic/88861",
+      "score": 40.0,
+      "source": "小众软件",
+      "platforms": [
+        "V2EX",
+        "linux.do",
+        "小众软件",
+        "少数派"
+      ],
+      "keywords": [
+        "Agent"
+      ],
+      "rounds": 0,
+      "consecutive_rounds": 0,
+      "reasons": [
+        "关键词 Agent 在 4 个社区都有人聊"
+      ],
+      "topic_key": "kw:agent",
+      "hits": 22,
+      "kind": "keyword_level"
+    },
+    {
+      "title": "淘宝桌面版的 AI 功能（MCP），真的什么都能干吗？",
+      "url": "https://meta.appinn.net/t/topic/82709",
       "score": 30.0,
       "source": "小众软件",
       "platforms": [
@@ -833,90 +1112,24 @@
         "小众软件"
       ],
       "keywords": [
-        "Kimi"
+        "MCP"
       ],
       "rounds": 0,
       "consecutive_rounds": 0,
       "reasons": [
-        "关键词 Kimi 在 3 个社区都有人聊"
+        "关键词 MCP 在 3 个社区都有人聊"
       ],
-      "topic_key": "kw:kimi",
-      "hits": 9,
+      "topic_key": "kw:mcp",
+      "hits": 13,
       "kind": "keyword_level"
-    },
-    {
-      "title": "Workbuddy卡的很",
-      "url": "https://meta.appinn.net/t/topic/93218",
-      "score": 30.0,
-      "source": "小众软件",
-      "platforms": [
-        "V2EX",
-        "linux.do",
-        "小众软件"
-      ],
-      "keywords": [
-        "WorkBuddy"
-      ],
-      "rounds": 0,
-      "consecutive_rounds": 0,
-      "reasons": [
-        "关键词 WorkBuddy 在 3 个社区都有人聊"
-      ],
-      "topic_key": "kw:workbuddy",
-      "hits": 8,
-      "kind": "keyword_level"
-    },
-    {
-      "title": "DeepSeek V4.1 Flash 1017真的能干活吗？",
-      "url": "https://linux.do/t/topic/3062936/1",
-      "score": 20.0,
-      "source": "linux.do",
-      "platforms": [
-        "linux.do",
-        "小众软件"
-      ],
-      "keywords": [
-        "DeepSeek"
-      ],
-      "rounds": 0,
-      "consecutive_rounds": 0,
-      "reasons": [
-        "跨 2 个社区出现"
-      ],
-      "topic_key": "d4c668de212e2a65",
-      "hits": 2,
-      "kind": "topic"
-    },
-    {
-      "title": "Strata 0.2.4 更新：12GB 显卡运行 DeepSeek V4.1-Flash",
-      "url": "https://meta.appinn.net/t/topic/94363",
-      "score": 20.0,
-      "source": "小众软件",
-      "platforms": [
-        "linux.do",
-        "小众软件"
-      ],
-      "keywords": [
-        "DeepSeek"
-      ],
-      "rounds": 0,
-      "consecutive_rounds": 0,
-      "reasons": [
-        "跨 2 个社区出现"
-      ],
-      "topic_key": "d4c668de212e2a65",
-      "hits": 2,
-      "kind": "topic"
     }
   ],
-  "message": "DeepSeek 自建的聊天包好用吗？\nhttps://meta.appinn.net/t/topic/96229\n\nKimi OK COMPUTER 初试用\nhttps://meta.appinn.net/t/topic/75325\n\nWorkbuddy卡的很\nhttps://meta.appinn.net/t/topic/93218\n\nDeepSeek V4.1 Flash 1017真的能干活吗？\nhttps://linux.do/t/topic/3062936/1\n\nStrata 0.2.4 更新：12GB 显卡运行 DeepSeek V4.1-Flash\nhttps://meta.appinn.net/t/topic/94363",
+  "message": "自荐 | Codex Co²：AI 时代的结对编程，应该是怎样的？\nhttps://sspai.com/post/117943\n\n各位觉得哪个 agent 软件好用\nhttps://meta.appinn.net/t/topic/88861\n\n淘宝桌面版的 AI 功能（MCP），真的什么都能干吗？\nhttps://meta.appinn.net/t/topic/82709",
   "silent": false,
   "pushed": [
-    "Reddit｜DeepSeek 自建的聊天包好用吗？",
-    "V2EX｜Kimi OK COMPUTER 初试用",
-    "V2EX｜Workbuddy卡的很",
-    "linux.do｜DeepSeek V4.1 Flash 1017真的能干活吗？",
-    "linux.do｜Strata 0.2.4 更新：12GB 显卡运行 DeepSeek V4.1-Flash"
+    "V2EX｜自荐 | Codex Co²：AI 时代的结对编程，应该是怎样的？",
+    "V2EX｜各位觉得哪个 agent 软件好用",
+    "V2EX｜淘宝桌面版的 AI 功能（MCP），真的什么都能干吗？"
   ],
   "push_failed": [],
   "summary_rest": []
