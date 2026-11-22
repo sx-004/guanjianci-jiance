@@ -20,7 +20,7 @@ from collector import fetch
 from .heat import word_match
 
 EXA_MCP = "https://mcp.exa.ai/mcp"
-ANYSEARCH_API = "https://api.anysearch.ai/v1/search"
+ANYSEARCH_API = "https://api.anysearch.com/v1/search"
 HN_API = "https://hn.algolia.com/api/v1/search"
 APPINN_SEARCH = "https://meta.appinn.net/search.json"
 APPINN_FAXIAN = "https://meta.appinn.net/c/faxian/10.json"
@@ -308,6 +308,10 @@ def _parse_search_json(text: str, keyword: str, max_age_days: int = 0) -> List[H
     rows = []
     if isinstance(data, dict):
         rows = data.get("results") or data.get("hits") or data.get("topics") or []
+        # Anysearch /v1/search 把结果包在 data.data.results 里。
+        if not rows and isinstance(data.get("data"), dict):
+            inner = data["data"]
+            rows = inner.get("results") or inner.get("hits") or inner.get("topics") or []
     elif isinstance(data, list):
         rows = data
     for rank, row in enumerate(rows if isinstance(rows, list) else [], start=1):

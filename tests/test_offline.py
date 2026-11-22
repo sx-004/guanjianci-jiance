@@ -270,6 +270,22 @@ class TestChineseFilter(unittest.TestCase):
         self.assertFalse(search.has_chinese("Claude Opus 4.7 pricing"))
 
 
+class TestAnysearch(unittest.TestCase):
+    def test_endpoint_is_com(self):
+        self.assertEqual(search.ANYSEARCH_API, "https://api.anysearch.com/v1/search")
+
+    def test_nested_results_parsed(self):
+        payload = json.dumps({"code": 0, "data": {"results": [{
+            "title": "Claude 4.7 发布讨论",
+            "url": "https://www.v2ex.com/t/123",
+            "snippet": "聊聊 Claude 的新能力",
+        }]}})
+        hits = search._parse_search_json(payload, "Claude")
+        self.assertEqual(len(hits), 1)
+        self.assertEqual(hits[0].source, "V2EX")
+        self.assertEqual(hits[0].url, "https://www.v2ex.com/t/123")
+
+
 class TestRun(unittest.TestCase):
     def test_same_keyword_searched_once_per_day(self):
         with tempfile.TemporaryDirectory() as tmp:
