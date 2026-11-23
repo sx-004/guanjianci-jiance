@@ -161,6 +161,13 @@ def _validate_public(host: str, port: int, *, trusted_proxy: bool, env: Optional
     for addr in parsed_ips:
         if not addr.is_global:
             raise FetchError(f"DNS 返回混合地址且含非公网 IP，已拒绝: {host} -> {addr}", "dns_error")
+    # NAS 上必须走本机代理：显式开启后，可信源即使解析到公网 IP 也走代理。
+    if trusted_proxy:
+        scope = os.environ if env is None else env
+        if (scope.get("CINDY_FORCE_PROXY") or "").strip().lower() in ("1", "true", "yes"):
+            proxy = _local_proxy_url(env)
+            if proxy:
+                return proxy
     return None
 
 
