@@ -138,8 +138,29 @@ def _local_proxy_url(env: Optional[Dict[str, str]] = None) -> str:
     return raw
 
 
+def _force_proxy_url(host: str, *, trusted_proxy: bool, env: Optional[Dict[str, str]] = None) -> str:
+    """NAS 上显式强制走代理：域名交给代理解析，本地 DNS 不作安全依据。
+
+    只对内置可信源生效；字面 IP（含私网）不走这条捷径。
+    """
+    if not trusted_proxy:
+        return ""
+    scope = os.environ if env is None else env
+    if (scope.get("CINDY_FORCE_PROXY") or "").strip().lower() not in ("1", "true", "yes"):
+        return ""
+    try:
+        ipaddress.ip_address(host)
+        return ""
+    except ValueError:
+        pass
+    return _local_proxy_url(env)
+
+
 def _validate_public(host: str, port: int, *, trusted_proxy: bool, env: Optional[Dict[str, str]] = None) -> Optional[str]:
     """校验目标。返回要使用的代理 URL（或 None 表示直连）。"""
+    forced_proxy = _force_proxy_url(host, trusted_proxy=trusted_proxy, env=env)
+    if forced_proxy:
+        return forced_proxy
     addresses = _resolve_addresses(host, port)
     if not addresses:
         raise FetchError(f"DNS 未返回可用地址: {host}", "dns_error")
@@ -161,13 +182,6 @@ def _validate_public(host: str, port: int, *, trusted_proxy: bool, env: Optional
     for addr in parsed_ips:
         if not addr.is_global:
             raise FetchError(f"DNS 返回混合地址且含非公网 IP，已拒绝: {host} -> {addr}", "dns_error")
-    # NAS 上必须走本机代理：显式开启后，可信源即使解析到公网 IP 也走代理。
-    if trusted_proxy:
-        scope = os.environ if env is None else env
-        if (scope.get("CINDY_FORCE_PROXY") or "").strip().lower() in ("1", "true", "yes"):
-            proxy = _local_proxy_url(env)
-            if proxy:
-                return proxy
     return None
 
 
