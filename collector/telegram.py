@@ -7,6 +7,8 @@ from __future__ import annotations
 
 import json
 import os
+import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -37,7 +39,44 @@ def _api(token: str, method: str, payload: dict, timeout: float = 20.0) -> dict:
     return body
 
 
-def send_message(token: str, chat_id: str, text: str, *, timeout: float = 20.0,
+def send_message(*args, **kwargs) -> bool:
+    """带重试的推送：只重试这一条消息，不重跑整轮。
+
+    401/403 属于配置错误（token 无效、聊天未授权），重试没有意义，直接抛出；
+    网络异常、429、5xx 这类临时故障才重试，重试仍失败就抛错，
+    由上层写进 pending 队列，下一轮补推。
+    """
+    attempts = 3
+    try:
+        attempts = max(1, int(os.environ.get("TELEGRAM_RETRY_ATTEMPTS", "3") or "3"))
+    except ValueError:
+        attempts = 3
+    delays = (1, 3)
+    raw_delays = (os.environ.get("TELEGRAM_RETRY_DELAYS") or "").strip()
+    if raw_delays:
+        try:
+            delays = tuple(max(0, int(x)) for x in raw_delays.split(",") if x.strip()) or delays
+        except ValueError:
+            delays = (1, 3)
+    last_exc: Optional[PushError] = None
+    for attempt in range(attempts):
+        try:
+            return _send_once(*args, **kwargs)
+        except PushError as exc:
+            last_exc = exc
+            detail = str(exc)
+            if "401" in detail or "403" in detail:
+                raise
+            if attempt + 1 >= attempts:
+                break
+            wait = delays[min(attempt, len(delays) - 1)]
+            print(f"Telegram 推送失败，{wait} 秒后重试（{attempt + 1}/{attempts - 1}）：{detail}",
+                  file=sys.stderr)
+            time.sleep(wait)
+    raise last_exc
+
+
+def _send_once(token: str, chat_id: str, text: str, *, timeout: float = 20.0,
                  disable_web_page_preview: bool = False) -> dict:
     """发一条纯文本消息；超长自动按段落切分。"""
     if not token or not chat_id:
