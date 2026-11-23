@@ -1,9 +1,10 @@
 name: 关键词监控
 
 on:
-  schedule:
-    # 每小时一次，避开整点（GitHub 整点高负载会丢任务）。
-    - cron: '43 * * * *'
+  # schedule 已停用：改用 NAS 本地 crontab 跑，避免与 NAS 双推。
+  # 恢复时把下面注释里的 schedule/cron 放开即可。
+  # schedule:
+  #   - cron: '每日/每小时待定'
   push:
     branches: [main]
   workflow_dispatch:
