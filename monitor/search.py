@@ -344,6 +344,25 @@ def _anysearch_keys() -> List[str]:
     return [key.strip() for key in raw.replace(";", ",").split(",") if key.strip()]
 
 
+class AllKeysFailed(RuntimeError):
+    """所有 Anysearch key 都失败（含配额耗尽）。"""
+
+
+def _try_keys(search_fn, keys, *args, label="Anysearch"):
+    """按顺序尝试多把 key：402/配额耗尽自动换下一把，其他错误也依次尝试。
+
+    背景（2026-11-25）：第一把 key 当日配额耗尽返回 402，但代码只取 keys[0]，
+    导致六仓同时召回归零；#2~#4 明明可用却被闲置。
+    """
+    failures = []
+    for index, key in enumerate(keys):
+        try:
+            return search_fn(key, *args), index
+        except Exception as exc:  # noqa: BLE001 单把失败继续试下一把
+            failures.append(f"key{index + 1}: {type(exc).__name__} {str(exc)[:100]}")
+    raise AllKeysFailed("；".join(failures))
+
+
 def cloud_search(keyword: str, max_age_days: int = 0,
                 results_per_platform: int = 5) -> Tuple[List[Hit], SourceStatus]:
     """每个社区单独搜一次：Exa 公共 MCP 优先，失败或空结果时用 Anysearch 兜底。"""
@@ -379,9 +398,12 @@ def cloud_search(keyword: str, max_age_days: int = 0,
         payload = {"query": f"{keyword} 社区讨论帖 site:x.com OR site:news.ycombinator.com "
                             f"OR site:meta.appinn.net OR site:v2ex.com OR site:sspai.com "
                             f"OR site:reddit.com OR site:linux.do", "max_results": 8}
-        text = _post_json(ANYSEARCH_API, payload,
-                          {"Authorization": f"Bearer {keys[0]}", "X-API-Key": keys[0]})
-        hits = _parse_search_json(text, keyword, max_age_days)
+        def _ask(key):
+            raw = _post_json(ANYSEARCH_API, payload,
+                             {"Authorization": f"Bearer {key}", "X-API-Key": key})
+            return _parse_search_json(raw, keyword, max_age_days)
+
+        hits, _used = _try_keys(_ask, keys)
         return hits, SourceStatus("anysearch", True)
     except Exception as exc:  # noqa: BLE001
         return [], SourceStatus("anysearch", False, "provider_error",
