@@ -348,7 +348,7 @@ class AllKeysFailed(RuntimeError):
     """所有 Anysearch key 都失败（含配额耗尽）。"""
 
 
-def _try_keys(search_fn, keys, *args, label="Anysearch"):
+def _try_keys(attempt, keys):
     """按顺序尝试多把 key：402/配额耗尽自动换下一把，其他错误也依次尝试。
 
     背景（2026-11-25）：第一把 key 当日配额耗尽返回 402，但代码只取 keys[0]，
@@ -357,7 +357,7 @@ def _try_keys(search_fn, keys, *args, label="Anysearch"):
     failures = []
     for index, key in enumerate(keys):
         try:
-            return search_fn(key, *args), index
+            return attempt(key), index
         except Exception as exc:  # noqa: BLE001 单把失败继续试下一把
             failures.append(f"key{index + 1}: {type(exc).__name__} {str(exc)[:100]}")
     raise AllKeysFailed("；".join(failures))
